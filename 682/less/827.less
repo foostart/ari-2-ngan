@@ -1,0 +1,195 @@
+.type-827 {
+    @color-bullet-hover: #b7b7b7;
+    @color-bg-bullet: #fde230;
+    @color-carousel-caption: rgba(0,0,0,0.4);
+    @color-bg-next-back-button: rgba(216, 216, 216, 0.85);
+    @color-timer: #fde230;
+
+    img {
+        width: 100%;
+    }
+    p {
+        margin: 0 0 60px;
+    }
+    .wpb_row {
+        position: relative;         
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .slider-wrapper {
+        position: relative;
+        z-index: 0;
+        top: 0;
+        overflow: hidden;
+    }
+    .camera_wrap {
+        width: 100%;
+        display: none;
+        float: left;
+        position: relative;
+        z-index: 0;
+        margin-bottom: 0px;
+    }
+    .camera_target {
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+        text-align: left;
+        top: 0;
+        width: 100%;
+        z-index: 0;
+    }
+    .cameraCont {
+        height: 100%;
+        position: relative;
+        width: 100%;
+        z-index: 1;
+    }
+    .camera_wrap img {
+        max-width: none ;
+        background: none;
+        font: inherit;
+        font-size: 100%;
+        margin: 0;
+        padding: 0;
+        vertical-align: baseline;
+        list-style: none;
+    }
+    .camerarelative {
+        height: 448px;
+        overflow: hidden;
+        position: relative;
+    }
+    .carousel-inner > .item > img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .camera_azure_skin {
+        display: block; 
+        margin-bottom: 63px;
+        height: 448px;
+    }
+    .imgLoaded {
+        visibility: visible;
+        height: 448px; 
+        margin-top: 0px; 
+        position: absolute; 
+    }
+    .camera_wrap  {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: right;
+        .carousel-indicators {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            width: 100%;
+            z-index: 15;
+            margin: 0;
+            padding: 0 10px 10px 0;
+            text-align: right;
+            li:hover > span {
+                background: @color-bullet-hover;
+            }
+            li:active > span {
+                background: #1f1f1f;
+
+            }
+        }
+        li {
+            background: @color-bg-bullet;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            border-radius: 8px;
+            cursor: pointer;
+            display: inline-block;
+            height: 16px;
+            margin: 20px 5px;
+            position: relative;
+            text-indent: -9999px;
+            width: 16px;
+        }
+        span {
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            height: 8px;
+            left: 4px;
+            overflow: hidden;
+            position: absolute;
+            top: 4px;
+            width: 8px;
+        }
+    }
+    @media (min-width: 768px) {
+        .col-sm-12 {
+            float: left;
+            width: 100%;
+        }
+    }
+    /* ------------------- Carousel Styling ------------------- */
+    .carousel-inner {
+        border-radius: 0px;
+    }
+    .carousel-caption {
+        position: absolute;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+        background: @color-carousel-caption;
+    }
+    .camera_prev, .camera_next {
+        background: @color-bg-next-back-button;
+        cursor: pointer;
+        height: 40px;
+        margin-top: -20px;
+        position: absolute;
+        top: 50%;
+        width: 40px;
+        z-index: 2;
+    }
+    .camera_prev {
+        left: 0;
+    }
+    .camera_next {
+        right: 0;
+    }
+    .camera_azure_skin .camera_prev > span {
+        background-position: 0 -240px;
+    }
+    .camera_prev > span {
+        background: url(../images/camera_skins.png) no-repeat 0 0;
+        display: block;
+        height: 40px;
+        width: 40px;
+    }
+    .camera_azure_skin .camera_next > span {
+        background-position: -40px -240px;
+    }
+    .camera_next > span {
+        background: url(../images/camera_skins.png) no-repeat -40px 0;
+        display: block;
+        height: 40px;
+        width: 40px;
+    }
+    .timer {
+        height: 1%;
+        width: 0%;
+        position: absolute;
+        left: 0;
+        height: 3px;
+        bottom: 25px;
+        background: @color-timer;
+        z-index: 10;
+    }
+}
