@@ -4,9 +4,9 @@ $(document).ready(function (e) {
                 backToTop = function () {
                     var scrollTop = $(window).scrollTop();
                     if (scrollTop > scrollTrigger) {
-                        $('.scrollToTop').css('display', 'block')
+                        $('.scrollToTop').css('display', 'block');
                     } else {
-                        $('.scrollToTop').css('display', 'none')
+                        $('.scrollToTop').css('display', 'none');
                     }
                 };
         //backToTop();
