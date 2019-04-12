@@ -47,36 +47,37 @@ $url_path = str_replace('\\', '/', $url_path);
         <!-- </div> -->
         <div class="navbar-collapse nav-main-collapse collapse navigation_menu">
             <div class="container mega_menu_container">
-                <nav id="nav" role="navigation">
+                <nav class="nav-main mega-menu">
                     <ul id="mainMenu" class="nav navbar nav-pills nav-main">
-                            <li class="dropdown main_item main_item_click">
-                                <a href="#" class="dropdown-toggle par_dropdown_toggle" data-toggle="dropdown">Home</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">residential space</a></li>
-                                    <li><a href="#">comercial space</a></li>
-                                    <li><a href="#">office space</a></li>
-                                    <li><a href="#">charges</a></li>         
-                                </ul>
-                            </li>
-                            <li class="dropdown main_item mega_menu_item main_item_click">
-                                <a href="#" class="dropdown-toggle par_dropdown_toggle active">Courses</a>
-                            </li>
-                            <li class="dropdown main_item  main_item_click">
-                                <a href="#" class="dropdown-toggle par_dropdown_toggle">Element</a>
-                            </li>
-                            <li class="dropdown main_item main_item_click">
-                                <a href="#" class="dropdown-toggle par_dropdown_toggle">Blog</a>
-                            </li>
-                            <li class="dropdown main_item main_item_click">
-                                <a href="#" class="dropdown-toggle par_dropdown_toggle">Pages</a>
-                            </li>
-                            <li class="dropdown main_item">
-                                <a href="#" class="dropdown-toggle par_dropdown_toggle">About</a>
-                            </li>
-                            <li class="dropdown main_item">
-                                <a href="#" class="dropdown-toggle par_dropdown_toggle">Contact Us</a>
-                            </li>
-                        </ul>
+                        <li class="dropdown main_item main_item_click">
+                            <a href="#" class="dropdown-toggle par_dropdown_toggle" data-toggle="dropdown">Home</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">residential space</a></li>
+                                <li><a href="#">comercial space</a></li>
+                                <li><a href="#">office space</a></li>
+                                <li><a href="#">charges</a></li>         
+                            </ul>
+                        </li>
+                        <li class="dropdown main_item mega_menu_item main_item_click">
+                            <a href="#" class="dropdown-toggle par_dropdown_toggle active">Courses</a>
+                        </li>
+                        <li class="dropdown main_item  main_item_click">
+                            <a href="#" class="dropdown-toggle par_dropdown_toggle">Element</a>
+                        </li>
+                        <li class="dropdown main_item main_item_click">
+                            <a href="#" class="dropdown-toggle par_dropdown_toggle">Blog</a>
+                        </li>
+                        <li class="dropdown main_item main_item_click">
+                            <a href="#" class="dropdown-toggle par_dropdown_toggle">Pages</a>
+                        </li>
+                        <li class="dropdown main_item">
+                            <a href="#" class="dropdown-toggle par_dropdown_toggle">About</a>
+                        </li>
+                        <li class="dropdown main_item">
+                            <a href="#" class="dropdown-toggle par_dropdown_toggle">Contact Us</a>
+                        </li>
+                    </ul>
+
                 </nav>
                 <div class="lms_search_toggle" onclick="openSearch()" >
                     <a class="fa fa-search"></a>
