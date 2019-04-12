@@ -118,7 +118,6 @@
   border-radius: 0;
 }
 .type-679 .navigation_menu .mega_menu_container ul#mainMenu .active {
-  border-color: #ff9931 !important;
   background: none;
   color: #ff9931;
 }
@@ -211,7 +210,13 @@
 .type-679 .lms_page_title .lms_page_title_bg_overlay .container .breadcrumb li:last-child {
   color: #ff9933;
 }
-@media (min-width: 300px) and (max-width: 600px) {
+@media (min-width: 300px) and (max-width: 900px) {
+  .type-679 .container.logo_container {
+    margin-bottom: 0 !important;
+  }
+  .type-679 .lms_search_toggle {
+    top: 30 !important;
+  }
   .type-679 .lms_menu_toggle {
     display: block;
   }
