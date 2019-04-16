@@ -30,7 +30,7 @@
         z-index: 99999;
         transition: all 0.3s;
         .logo_container{
-            height: 87px;
+            height: 76px;
             //float: left;
             margin-bottom: -108px;
             position: relative;
@@ -238,17 +238,36 @@
             }
         }
     }
-    
-    @media (min-width: 300px) and (max-width: 900px){
+
+    @media (min-width: 300px) and (max-width: 996px){
         .container.logo_container{
             margin-bottom: 0!important;
         }
         .lms_search_toggle{
             top: 30!important;
         }
-        
+
         .lms_menu_toggle{
             display: block;
         }
+    }
+
+    @media (min-width: 300px) and (max-width: 768px){
+        .col-sm-12{
+            width: 50%;
+            top: 5px;
+        }
+    }
+
+    @media (min-width: 768px){
+
+        .navigation_menu .collapse{
+            display: none
+        }
+
+        .col-sm-12 {
+            width: 50%;
+        }
+
     }
 }
