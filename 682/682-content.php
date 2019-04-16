@@ -40,10 +40,13 @@ $url_path = str_replace('\\', '/', $url_path);
                 <!-- Add Pagination -->
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active">
+                        <span></span>
                     </li>
                     <li data-target="#carousel-example-generic" data-slide-to="1">
+                        <span></span>
                     </li>
                     <li data-target="#carousel-example-generic" data-slide-to="2">
+                        <span></span>
                     </li>
                     <div class="timer"></div>
                 </ol>
@@ -63,7 +66,7 @@ $url_path = str_replace('\\', '/', $url_path);
             disableOnInteraction: false,
         },
         pagination: {
-            el: '.swiper-pagination',
+            el: '.carousel-indicators',
             clickable: true,
         },
         navigation: {
