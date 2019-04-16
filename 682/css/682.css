@@ -68,3 +68,31 @@
   background: #fde230;
   z-index: 10;
 }
+.type-682 .carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  margin: 0;
+  padding: 0 10px 10px 0;
+  text-align: right;
+}
+.type-682 .carousel-indicators li:hover > span {
+  background: ;
+}
+.type-682 .carousel-indicators li:active > span {
+  background: #1f1f1f;
+}
+.type-682 li {
+  background: ;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  height: 16px;
+  margin: 20px 5px;
+  position: relative;
+  text-indent: -9999px;
+  width: 16px;
+}
