@@ -37,6 +37,8 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                 </div>
+                <div class="swiper-button-next"><span></span></div>
+                <div class="swiper-button-prev"><span></span></div>
                 <!-- Add Pagination -->
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active">
@@ -51,8 +53,6 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="timer"></div>
                 </ol>
                 <!-- Add Arrows -->
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
             </div>
         </div>
     </div>

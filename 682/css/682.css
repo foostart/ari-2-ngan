@@ -58,6 +58,24 @@
   width: 40px;
   z-index: 2;
 }
+.type-682 .swiper-button-prev {
+  left: 0;
+}
+.type-682 .swiper-button-next {
+  right: 0;
+}
+.type-682 .swiper-button-prev > span {
+  background: url(../images/camera_skins.png) no-repeat 0 0;
+  display: block;
+  height: 40px;
+  width: 40px;
+}
+.type-682 .swiper-button-next > span {
+  background: url(../images/camera_skins.png) no-repeat -40px 0;
+  display: block;
+  height: 40px;
+  width: 40px;
+}
 .type-682 .timer {
   height: 1%;
   width: 0%;
@@ -68,7 +86,7 @@
   background: #fde230;
   z-index: 10;
 }
-.type-682 .carousel-indicators {
+.type-682 .swiper-container .carousel-indicators {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -79,13 +97,13 @@
   padding: 0 10px 10px 0;
   text-align: right;
 }
-.type-682 .carousel-indicators li:hover > span {
+.type-682 .swiper-container .carousel-indicators li:hover > span {
   background: ;
 }
-.type-682 .carousel-indicators li:active > span {
+.type-682 .swiper-container .carousel-indicators li:active > span {
   background: #1f1f1f;
 }
-.type-682 li {
+.type-682 .swiper-container li {
   background: ;
   border-radius: 8px;
   cursor: pointer;
