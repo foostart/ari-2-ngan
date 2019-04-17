@@ -114,3 +114,11 @@
   text-indent: -9999px;
   width: 16px;
 }
+@media (max-width: 768px) {
+  .type-682 .carousel-caption {
+    font-size: 14px;
+  }
+  .type-682 .carousel-caption h1 {
+    font-size: 25px;
+  }
+}

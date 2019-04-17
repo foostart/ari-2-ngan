@@ -1,9 +1,10 @@
 $(document).ready(function () {
-    $d = 2500;
+    $d = 5000;
     $w = $('.imgLoaded').width();
     $i = 0;
     $n = $('.imgLoaded').length; //number of slides
     $f = 1000; // fade in/out speed
+    $d = 5000; // duration per slide
 
     function timer() {
         $('.timer').animate({"width": $w}, $d);
@@ -14,7 +15,7 @@ $(document).ready(function () {
         spaceBetween: 30,
         centeredSlides: true,
         autoplay: {
-            delay: 2500,
+            delay: 5000,
             disableOnInteraction: false,
         },
         pagination: {
