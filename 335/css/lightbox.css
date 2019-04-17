@@ -1,0 +1,25 @@
+.type-lightbox img {
+  width: 100%;
+}
+.type-lightbox .modal-dialog {
+  width: 600px;
+}
+.type-lightbox .thumbnail {
+  margin-bottom: 6px;
+  border: none;
+}
+.type-lightbox .icon-pause {
+  padding: 15px;
+  color: #1e1e1e;
+  font-size: 23px;
+  font-weight: bold;
+}
+.type-lightbox .text {
+  text-align: center;
+  display: block;
+  padding: 7px 0 6px;
+}
+.type-lightbox .fa-pause {
+  color: #e5e5e5;
+  font-size: 20;
+}

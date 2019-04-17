@@ -1,0 +1,86 @@
+.type-509 .container {
+  margin-right: auto;
+  margin-left: auto;
+}
+.type-509 .clear {
+  clear: both;
+}
+.type-509 div,
+.type-509 span {
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+.type-509 .row {
+  margin-bottom: 35px;
+}
+.type-509 h5 {
+  font-size: 14px;
+  margin: 10px 0;
+  line-height: 20px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+.type-509 h5 .title {
+  font-weight: 500;
+  margin-top: 0;
+  text-shadow: 1px 1px 0 #fff;
+}
+.type-509 .media-carousel {
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+.type-509 .media-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+.type-509 .media-carousel .carousel-indicators li {
+  background: #c0c0c0;
+}
+.type-509 .media-carousel img {
+  width: 250px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.type-509 .col-md-1 .carousel-control.left {
+  background-image: none;
+  color: #000;
+  font-weight: bold;
+}
+.type-509 .col-md-1 .carousel-control.right {
+  background-image: none;
+  color: #000;
+  font-weight: bold;
+}
+.type-509 .circlehover:hover {
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 5px 5px 1px rgba(0,0,0,0.2);
+}
+.type-509 a:hover {
+  text-decoration: none;
+  outline: 0;
+}
+.type-509 .keywordbox {
+  border-top: 4px solid #ddd;
+  position: relative;
+  padding-top: 30px;
+  font-size: 23px;
+  font-style: italic;
+  text-align: center;
+  color: #8D8D8D;
+}
+.type-509 .keywordbox:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  border: 6px solid transparent;
+  border-top-color: #ddd;
+}

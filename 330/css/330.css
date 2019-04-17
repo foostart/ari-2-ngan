@@ -1,0 +1,48 @@
+.type-330 .topheader {
+  background: none repeat scroll 0 0 #212121;
+  padding: 12px 0;
+}
+.type-330 .headerleft img {
+  float: left;
+  margin-right: 10px;
+}
+.type-330 .headerleft p {
+  color: #e8e8e8;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.type-330 .headerleft span {
+  color: #ff6766;
+  font-weight: 600;
+  margin-left: 4px;
+}
+.type-330 .header-right {
+  float: right;
+}
+.type-330 .header-right p {
+  float: left;
+  color: #e8e8e8;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-right: 5px;
+}
+.type-330 .header-right a {
+  color: #fff;
+}
+.type-330 .header-right a:hover {
+  text-decoration: none;
+  color: red;
+}
+.type-330 .header-right img {
+  float: left;
+}
+.type-330 .dropdown {
+  float: left;
+  margin-top: -2px;
+  margin-right: 15px;
+}
+.type-330 .dropdown-menu li a {
+  color: #000;
+}
