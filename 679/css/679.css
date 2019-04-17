@@ -26,7 +26,7 @@
   transition: all 0.3s;
 }
 .type-679 #lms_header .logo_container {
-  height: 87px;
+  height: 76px;
   margin-bottom: -108px;
   position: relative;
   max-width: 1170px;
@@ -210,7 +210,7 @@
 .type-679 .lms_page_title .lms_page_title_bg_overlay .container .breadcrumb li:last-child {
   color: #ff9933;
 }
-@media (min-width: 300px) and (max-width: 900px) {
+@media (min-width: 300px) and (max-width: 996px) {
   .type-679 .container.logo_container {
     margin-bottom: 0 !important;
   }
@@ -219,5 +219,19 @@
   }
   .type-679 .lms_menu_toggle {
     display: block;
+  }
+}
+@media (min-width: 300px) and (max-width: 768px) {
+  .type-679 .col-sm-12 {
+    width: 50%;
+    top: 5px;
+  }
+}
+@media (min-width: 768px) {
+  .type-679 .navigation_menu .collapse {
+    display: none;
+  }
+  .type-679 .col-sm-12 {
+    width: 50%;
   }
 }

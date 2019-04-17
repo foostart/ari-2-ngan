@@ -2,7 +2,8 @@
     @color-timer: #fde230;
     @color-bg-next-back-button: rgba(216, 216, 216, 0.85);
     @color-carousel-caption: rgba(0,0,0,0.4);
-
+    @color-bg-bullet: #fde230;
+    @color-bullet-hover: #b7b7b7;
 
     img {
         width: 100%;
@@ -70,6 +71,25 @@
         z-index: 2;
     }
 
+    .swiper-button-prev {
+        left: 0;
+    }
+    .swiper-button-next {
+        right: 0;
+    }
+    .swiper-button-prev > span {
+        background: url(../images/camera_skins.png) no-repeat 0 0;
+        display: block;
+        height: 40px;
+        width: 40px;
+    }
+
+    .swiper-button-next > span {
+        background: url(../images/camera_skins.png) no-repeat -40px 0;
+        display: block;
+        height: 40px;
+        width: 40px;
+    }
     .timer {
         height: 1%;
         width: 0%;
@@ -81,34 +101,45 @@
         z-index: 10;
     }
 
-    
-    .carousel-indicators {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        width: 100%;
-        z-index: 15;
-        margin: 0;
-        padding: 0 10px 10px 0;
-        text-align: right;
-        li:hover > span {
-            background: @color-bullet-hover;
-        }
-        li:active > span {
-            background: #1f1f1f;
+    .swiper-container{
+        .carousel-indicators {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            width: 100%;
+            z-index: 15;
+            margin: 0;
+            padding: 0 10px 10px 0;
+            text-align: right;
+            li:hover > span {
+                background: @color-bullet-hover;
+            }
+            li:active > span {
+                background: #1f1f1f;
 
+            }
+        }
+        li {
+            background: @color-bg-bullet;
+            border-radius: 8px;
+            cursor: pointer;
+            display: inline-block;
+            height: 16px;
+            margin: 20px 5px;
+            position: relative;
+            text-indent: -9999px;
+            width: 16px;
         }
     }
-    li {
-        background: @color-bg-bullet;
-        border-radius: 8px;
-        cursor: pointer;
-        display: inline-block;
-        height: 16px;
-        margin: 20px 5px;
-        position: relative;
-        text-indent: -9999px;
-        width: 16px;
+    
+    @media (max-width: 768px){
+        .carousel-caption{
+            font-size: 14px;
+        }
+        
+        .carousel-caption h1{
+            font-size: 25px;
+        }
     }
 }

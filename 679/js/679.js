@@ -30,11 +30,11 @@ function clipHeader(){
                     $('#lms_header').css('background','#1a1a1a');
                     $('.logo').css('padding','8px 0');
                     $('.par_dropdown_toggle').css('padding','30px 18px');
-                    $('.lms_search_toggle').css('top','55px');
+                    $('.lms_search_toggle').css('top','65px');
 
                 } else {
                     $('#lms_header').css('background','rgba(255,255,255,0.1)');
-                    $('.logo').css('padding','25px 0');
+                    $('.logo').css('padding','35px 0');
                     $('.par_dropdown_toggle').css('padding','60px 18px');
                     $('.lms_search_toggle').css('top','90px');
                 }
