@@ -37,6 +37,8 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                 </div>
+                
+                <!-- Add Arrows -->
                 <div class="swiper-button-next"><span></span></div>
                 <div class="swiper-button-prev"><span></span></div>
                 <!-- Add Pagination -->
@@ -50,28 +52,9 @@ $url_path = str_replace('\\', '/', $url_path);
                     <li data-target="#carousel-example-generic" data-slide-to="2">
                         <span></span>
                     </li>
-                    <div class="timer"></div>
-                </ol>
-                <!-- Add Arrows -->
+                </ol>                   
+                <div class="timer"></div>              
             </div>
         </div>
     </div>
 </div>
-<script>
-    var swiper = new Swiper('.swiper-container', {
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
-        pagination: {
-            el: '.carousel-indicators',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    });
-</script>

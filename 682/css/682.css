@@ -98,13 +98,13 @@
   text-align: right;
 }
 .type-682 .swiper-container .carousel-indicators li:hover > span {
-  background: ;
+  background: #b7b7b7;
 }
 .type-682 .swiper-container .carousel-indicators li:active > span {
   background: #1f1f1f;
 }
 .type-682 .swiper-container li {
-  background: ;
+  background: #fde230;
   border-radius: 8px;
   cursor: pointer;
   display: inline-block;

@@ -30,7 +30,7 @@ $less->compileFile('less/682.less', 'css/682.css');
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/swiper.min.js" type="text/javascript"></script>
-        
+        <script src="js/682.js" type="text/javascript"></script>
     </head>
     <body>
         <?php include $dir_block . '/682-content.php'; ?>
