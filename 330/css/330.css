@@ -45,3 +45,8 @@
 .type-330 .dropdown-menu li a {
   color: #000;
 }
+@media (max-width: 768px) {
+  .type-330 .col-xs-12 {
+    width: 50%;
+  }
+}

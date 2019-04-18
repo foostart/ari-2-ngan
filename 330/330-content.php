@@ -22,7 +22,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <p><a href="">login</a> / <a href="">register</a></p>
                         <div class="dropdown ">
                             <div class="dropdown-toggle text-danger"  data-toggle="dropdown">
-                                <strong>Dropdown Menu</strong>
+                                <strong>USD</strong>
                             </div>
                             <div class="dropdown-menu" >
                                 <a class="dropdown-item" href="#">Menu 1</a>
