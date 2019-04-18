@@ -1,5 +1,5 @@
 <?php
-$url_host = 'http://'.$_SERVER['HTTP_HOST'];
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
@@ -20,17 +20,18 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="header-right">
                         <p><a href="">login</a> / <a href="">register</a></p>
-                        <div class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    USD
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">ENG</a></li>
-                                    <li><a href="#">FR</a></li>
-                                    <li><a>USK</a></li>
-                                </ul>
+                        <div class="dropdown ">
+                            <div class="dropdown-toggle text-danger"  data-toggle="dropdown">
+                                <strong>Dropdown Menu</strong>
+                            </div>
+                            <div class="dropdown-menu" >
+                                <a class="dropdown-item" href="#">Menu 1</a>
+                                <a class="dropdown-item" href="#">Menu item 2</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Menu 3 ...</a>
+                            </div>
                         </div>
-                        <img src="<?php echo $url_path ?>/images/flag.png" alt=""/>
+                        <img src="images/flag.png" alt=""/>
                     </div>
                 </div>
             </div>
