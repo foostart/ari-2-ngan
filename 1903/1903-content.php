@@ -25,7 +25,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <button class="tablinks active" onclick="openCity(event, 'Fashion')">Fashion</button>
                                 <button class="tablinks active" onclick="openCity(event, 'Furniture')">Furniture</button>
                             </div>
-                            <div class="supperdeal-countdown" data-date="12/15/2018" data-tc-id="d43adcd1-6be0-b969-4089-be2d1df7a34a">
+                            <div class="supperdeal-countdown" data-date="12/15/2018">
                                 <div class="time_circles">
                                     <canvas width="225" height="56">                  
                                     </canvas>
@@ -57,1168 +57,1171 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
 
                 <div class="col-md-9 col-sm-8 col-xs-12 product">
-                    <div id="Electronis" class="tabcontent">
-                        <div class="owl-controls">
-                            <div class="owl-buttons">
-                                <div class="swiper-button-prev">
-                                    <span class="fa fa-angle-left"></span>
-                                </div>
-                                <div class="swiper-button-next">
-                                    <span class="fa fa-angle-right"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/10-1-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/0-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
-                                                            </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Macbook Air</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$899.00</span>
-                                                    <span class="old_price">$968.00</span>
-                                                </span>
-                                            </div>
-                                        </div>
+                    <div class="row products">
+                        <div id="Electronis" class="tabcontent">
+                            <div class="owl-controls">
+                                <div class="owl-buttons">
+                                    <div class="swiper-button-prev">
+                                        <span class="fa fa-angle-left"></span>
                                     </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/2-2-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/3-1-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
-                                                            </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Backberry Passpost</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$646.00</span>
-                                                    <span class="old_price">$686.00</span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/7-1-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/8-1-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
-                                                            </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Macbook</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$866.00</span>
-                                                    <span class="old_price">$889.00</span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/3-1-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/10-1-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
-                                                            </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Sony Z5 Premium</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$620.00</span>
-                                                    <span class="old_price">$648.00</span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/8-1-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/10-1-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
-                                                            </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Asus 550a</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$486.00</span>
-                                                    <span class="old_price">$512.00</span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/5-1-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/9-1-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
-                                                            </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Galaxy S VII</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$567.00</span>
-                                                    <span class="old_price">$688.00</span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/0-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/3-1-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
-                                                            </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Dell Inspiron 15</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$226.00</span>
-                                                    <span class="old_price">$234.00</span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/12-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/10-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
-                                                            </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Macbook Air</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$899.00</span>
-                                                    <span class="old_price">$968.00</span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/0-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/8-1-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
-                                                            </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">BB Passport</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$646.00</span>
-                                                    <span class="old_price">$686.00</span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/8-1-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/7-1-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
-                                                            </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Macbook</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$866.00</span>
-                                                    <span class="old_price">$889.00</span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/10-1-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/3-1-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
-                                                            </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Macbook</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$866.00</span>
-                                                    <span class="old_price">$889.00</span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/8-1-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/7-1-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
-                                                            </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Sony Z5 Premium</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$620.00</span>
-                                                    <span class="old_price">$648.00</span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/7-1-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/10-1-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
-                                                            </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Asus 550a</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$486.00</span>
-                                                    <span class="old_price">$512.00</span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/5-1-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/9-1-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
-                                                            </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Galaxy S VII</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$567.00</span>
-                                                    <span class="old_price">$688.00</span>
-                                                </span>
-                                            </div>
-                                        </div>
+                                    <div class="swiper-button-next">
+                                        <span class="fa fa-angle-right"></span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div id="Fashion" class="tabcontent">
-                        <div class="swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/10.png" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/8-300x360.png" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/10-1-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/0-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
                                                             </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Macbook Air</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$899.00</span>
+                                                            <span class="old_price">$968.00</span>
+                                                        </span>
                                                     </div>
                                                 </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Lacoste Sport</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$289.00</span>
-                                                    <span class="old_price">$322.00</span>
-                                                </span>
+                                            </div>
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/2-2-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/3-1-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Backberry Passpost</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$646.00</span>
+                                                            <span class="old_price">$686.00</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/15-1-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/16-1-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
+                                    <div class="swiper-slide">
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/7-1-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/8-1-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
                                                             </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Macbook</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$866.00</span>
+                                                            <span class="old_price">$889.00</span>
+                                                        </span>
                                                     </div>
                                                 </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">T-Shirt Sport</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$233.00</span>
-                                                    <span class="old_price">$342.00</span>
-                                                </span>
+                                            </div>
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/3-1-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/10-1-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Sony Z5 Premium</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$620.00</span>
+                                                            <span class="old_price">$648.00</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/4-300x360.png" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/1-300x360.png" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
+                                    <div class="swiper-slide">
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/8-1-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/10-1-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
                                                             </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Asus 550a</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$486.00</span>
+                                                            <span class="old_price">$512.00</span>
+                                                        </span>
                                                     </div>
                                                 </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Fashion Mangto</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$68.00</span>
-                                                    <span class="old_price">$86.00</span>
-                                                </span>
+                                            </div>
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/5-1-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/9-1-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Galaxy S VII</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$567.00</span>
+                                                            <span class="old_price">$688.00</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/1-300x360.png" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/4-300x360.png" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
+                                    <div class="swiper-slide">          
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/0-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/3-1-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
                                                             </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Dell Inspiron 15</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$226.00</span>
+                                                            <span class="old_price">$234.00</span>
+                                                        </span>
                                                     </div>
                                                 </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Women's Woolen</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$386.00</span>
-                                                    <span class="old_price">$421.00</span>
-                                                </span>
+                                            </div>
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/12-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/10-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Macbook Air</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$899.00</span>
+                                                            <span class="old_price">$968.00</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/10.png" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/8-300x360.png" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
+                                    <div class="swiper-slide">         
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/0-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/8-1-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
                                                             </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">BB Passport</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$646.00</span>
+                                                            <span class="old_price">$686.00</span>
+                                                        </span>
                                                     </div>
                                                 </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Men's Woolen</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$312.00</span>
-                                                    <span class="old_price">$325.00</span>
-                                                </span>
+                                            </div>
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/8-1-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/7-1-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Macbook</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$866.00</span>
+                                                            <span class="old_price">$889.00</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/8-300x360.png" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/11-300x360.png" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
+                                    <div class="swiper-slide">
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/10-1-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/3-1-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
                                                             </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Macbook</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$866.00</span>
+                                                            <span class="old_price">$889.00</span>
+                                                        </span>
                                                     </div>
                                                 </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Bag Goodscol model</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$289.00</span>
-                                                    <span class="old_price">$323.00</span>
-                                                </span>
+                                            </div>
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/8-1-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/7-1-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Sony Z5 Premium</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$620.00</span>
+                                                            <span class="old_price">$648.00</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/3-300x360.png" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/1-300x360.png" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
+                                    <div class="swiper-slide">        
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/7-1-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/10-1-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
                                                             </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Asus 550a</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$486.00</span>
+                                                            <span class="old_price">$512.00</span>
+                                                        </span>
                                                     </div>
                                                 </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Fashion Mangto</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$75.00</span>
-                                                    <span class="old_price">$95.00</span>
-                                                </span>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/4-300x360.png" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/1-300x360.png" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/5-1-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/9-1-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
                                                             </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Galaxy S VII</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$567.00</span>
+                                                            <span class="old_price">$688.00</span>
+                                                        </span>
                                                     </div>
                                                 </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Women's Woolen</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$386.00</span>
-                                                    <span class="old_price">$421.00</span>
-                                                </span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div id="Furniture" class="tabcontent">
-                        <div class="swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/6-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/8-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
+                        <div id="Fashion" class="tabcontent">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/10.png" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/8-300x360.png" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
                                                             </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Lacoste Sport</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$289.00</span>
+                                                            <span class="old_price">$322.00</span>
+                                                        </span>
                                                     </div>
                                                 </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Hedgehogs</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$112.00</span>
-                                                    <span class="old_price">$126.00</span>
-                                                </span>
+                                            </div>
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/15-1-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/16-1-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">T-Shirt Sport</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$233.00</span>
+                                                            <span class="old_price">$342.00</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/4-300x360.png" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/1-300x360.png" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Fashion Mangto</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$68.00</span>
+                                                            <span class="old_price">$86.00</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/1-300x360.png" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/4-300x360.png" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Women's Woolen</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$386.00</span>
+                                                            <span class="old_price">$421.00</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/10.png" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/8-300x360.png" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Men's Woolen</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$312.00</span>
+                                                            <span class="old_price">$325.00</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/8-300x360.png" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/11-300x360.png" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Bag Goodscol model</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$289.00</span>
+                                                            <span class="old_price">$323.00</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/3-300x360.png" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/1-300x360.png" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Fashion Mangto</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$75.00</span>
+                                                            <span class="old_price">$95.00</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/4-300x360.png" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/1-300x360.png" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Women's Woolen</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$386.00</span>
+                                                            <span class="old_price">$421.00</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/7-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/9-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
+                            </div>
+                        </div>
+
+                        <div id="Furniture" class="tabcontent">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/6-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/8-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
                                                             </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Hedgehogs</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$112.00</span>
+                                                            <span class="old_price">$126.00</span>
+                                                        </span>
                                                     </div>
                                                 </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Lipzor Light</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$187.00</span>
-                                                    <span class="old_price">$234.00</span>
-                                                </span>
+                                            </div>
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/7-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/9-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Lipzor Light</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$187.00</span>
+                                                            <span class="old_price">$234.00</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/8-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/10-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
+                                    <div class="swiper-slide">
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/8-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/10-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
                                                             </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Pok Chair Classicle</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$245.00</span>
+                                                            <span class="old_price">$466.00</span>
+                                                        </span>
                                                     </div>
                                                 </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Pok Chair Classicle</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$245.00</span>
-                                                    <span class="old_price">$466.00</span>
-                                                </span>
+                                            </div>
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/9-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/8-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Light Classic</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$52.00</span>
+                                                            <span class="old_price">$58.00</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/9-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/8-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
+                                    <div class="swiper-slide">
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/10-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/6-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
                                                             </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Hedgehogs multicolor</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$244.00</span>
+                                                            <span class="old_price">$288.00</span>
+                                                        </span>
                                                     </div>
                                                 </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Light Classic</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$52.00</span>
-                                                    <span class="old_price">$58.00</span>
-                                                </span>
+                                            </div>
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/8-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/6-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Hedgehogs multicolor</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$112.00</span>
+                                                            <span class="old_price">$126.00</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/10-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/6-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
+                                    <div class="swiper-slide">
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/9-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/7-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
                                                             </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Lipzor Light</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$187.00</span>
+                                                            <span class="old_price">$234.00</span>
+                                                        </span>
                                                     </div>
                                                 </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Hedgehogs multicolor</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$244.00</span>
-                                                    <span class="old_price">$288.00</span>
-                                                </span>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/8-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/6-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
+                                            <div class="product-box">
+                                                <figure class="imghvr-push-up">
+                                                    <img src="images/8-300x360.jpg" alt="#">
+                                                    <figcaption class="image-hover">
+                                                        <img src="images/10-300x360.jpg" alt="#">
+                                                        <div class="bor_img">
+                                                            <div class="like">
+                                                                <a href="#">
+                                                                    <div class="search">
+                                                                        <i class="fa fa-heart"></i>
+                                                                        <i class="fa fa-toggle-on"></i>
+                                                                        <i class="fa fa-search"></i>
+                                                                    </div>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <div class="cart">
+                                                                        <i class="fa fa-shopping-basket"></i> Add to cart
+                                                                    </div>
+                                                                </a>
                                                             </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                                <!-- texxt -->
+                                                <div class="product-info">
+                                                    <h3 class="title-product">
+                                                        <a href="#">Chair Classicle</a>
+                                                    </h3>
+                                                    <div class="info-price">
+                                                        <span class="Price-amount">
+                                                            <span class="new_price">$245.00</span>
+                                                            <span class="old_price">$466.00</span>
+                                                        </span>
                                                     </div>
                                                 </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Hedgehogs multicolor</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$112.00</span>
-                                                    <span class="old_price">$126.00</span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/9-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/7-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
-                                                            </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Lipzor Light</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$187.00</span>
-                                                    <span class="old_price">$234.00</span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="product-box">
-                                        <figure class="imghvr-push-up">
-                                            <img src="images/8-300x360.jpg" alt="#">
-                                            <figcaption class="image-hover">
-                                                <img src="images/10-300x360.jpg" alt="#">
-                                                <div class="bor_img">
-                                                    <div class="like">
-                                                        <a href="#">
-                                                            <div class="search">
-                                                                <i class="fa fa-heart"></i>
-                                                                <i class="fa fa-toggle-on"></i>
-                                                                <i class="fa fa-search"></i>
-                                                            </div>
-                                                        </a>
-                                                        <a href="#">
-                                                            <div class="cart">
-                                                                <i class="fa fa-shopping-basket"></i> Add to cart
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                        <!-- texxt -->
-                                        <div class="product-info">
-                                            <h3 class="title-product">
-                                                <a href="#">Chair Classicle</a>
-                                            </h3>
-                                            <div class="info-price">
-                                                <span class="Price-amount">
-                                                    <span class="new_price">$245.00</span>
-                                                    <span class="old_price">$466.00</span>
-                                                </span>
                                             </div>
                                         </div>
                                     </div>

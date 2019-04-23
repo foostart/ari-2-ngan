@@ -1,11 +1,10 @@
-.type-1903 * {
-  box-sizing: border-box;
-  outline: none;
-}
 .type-1903 .supperdeal-deal6 {
   border: 1px solid #e5e5e5;
   margin-bottom: 50px;
   margin-top: 50px;
+}
+.type-1903 .supperdeal-deal6 .products {
+  margin: 0;
 }
 .type-1903 .supperdeal-deal6 .supperdeal-sidebar {
   margin-right: -40px;
@@ -54,7 +53,6 @@
 .type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab button {
   display: block;
   background-color: inherit;
-  color: black;
   padding: 13px 16px;
   width: 100%;
   border: none;
@@ -170,20 +168,12 @@
 }
 .type-1903 .swiper-slide {
   left: 40px;
-  text-align: center;
   font-size: 18px;
   background: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
   justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
   align-items: center;
 }
 .type-1903 .product-box {
@@ -192,6 +182,10 @@
 .type-1903 .product-box figure.imghvr-push-up figcaption.image-hover {
   background: none;
   padding: 0px;
+}
+.type-1903 .product-box figure.imghvr-push-up figcaption.image-hover img {
+  vertical-align: top;
+  max-width: 100%;
 }
 .type-1903 .product-box figure.imghvr-push-up figcaption.image-hover .bor_img {
   overflow: hidden;
@@ -220,19 +214,19 @@
   background: rgba(0,0,0,0.5) none repeat scroll 0 0;
 }
 .type-1903 .product-box figure.imghvr-push-up figcaption.image-hover .bor_img .like .cart {
-  color: black;
   font-size: 16px;
   background: #fe9c00 none repeat scroll 0 0;
   color: #fff;
   display: block;
   padding: 8px 14px;
   overflow: hidden;
+  text-decoration: none;
 }
 .type-1903 .product-box figure.imghvr-push-up figcaption.image-hover .bor_img .like .cart i {
   color: #fe9c00;
 }
 .type-1903 .product-box figure.imghvr-push-up figcaption.image-hover .bor_img .like .search .fa {
-  padding: 10px;
+  padding: 5px;
 }
 .type-1903 .product-box figure.imghvr-push-up figcaption.image-hover .bor_img .like .search .fa-heart:hover {
   color: #4bae4f;
@@ -259,7 +253,7 @@
   font-size: 18px;
 }
 .type-1903 .product-box .product-info {
-  padding: 20px;
+  padding: 40px;
 }
 .type-1903 .product-box .product-info h3.title-product {
   font-size: 14px;
@@ -268,6 +262,10 @@
 }
 .type-1903 .product-box .product-info h3.title-product a {
   color: #333;
+}
+.type-1903 .product-box .product-info .title-product a:hover {
+  color: #4bae4f;
+  text-decoration: none;
 }
 .type-1903 .product-box .product-info .info-price span.Price-amount span.new_price {
   color: #4bae4f;

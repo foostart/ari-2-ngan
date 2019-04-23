@@ -22,29 +22,21 @@ $less->compileFile('less/1903.less', 'css/1903.css');
         <title>Module 1903</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/swiper.min.js" type="text/javascript"></script>
+        <script src="js/1903.js" type="text/javascript"></script>
+
         <link href="css/swiper.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/1903.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/imagehover.min.css" rel="stylesheet" type="text/css"/>
 
-        <script src="js/swiper.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
-        <script src="js/1903.js" type="text/javascript"></script>
     </head>
     <body>
         <?php include '../1903/1903-content.php'; ?>
-        <script>
-            var swiper = new Swiper('.swiper-container', {
-                slidesPerView: 4,
-                slidesPerColumn: 2,
-                spaceBetween: 30,
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-            });
-        </script>
+
     </body>
 </html>
