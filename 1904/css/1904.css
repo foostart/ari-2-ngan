@@ -1,10 +1,109 @@
-.type-1904 .slide-band6 {
+.type-1904 .img {
+  padding-top: 50px;
+}
+.type-1904 .img .slide-band6 {
   padding-left: 0;
 }
-.type-1904 .item-adv-simple .wrapper {
+.type-1904 .img .slide-band6 .img1 {
+  padding-left: 0;
+}
+.type-1904 .img .slide-band6 .img2 .wrapper {
+  padding-left: 5px;
+}
+.type-1904 .img .slide-band6 .img2 .wrapper .single-img.item-adv-simple.item2 {
+  padding-top: 20px;
+}
+.type-1904 .img .slide-band6 .info-1 {
+  bottom: 110px;
+  left: 418px;
+  padding: 25px;
+  position: absolute;
+  text-transform: uppercase;
+  text-align: center;
+}
+.type-1904 .img .slide-band6 .info-1 h1 {
+  display: inline-block;
+  line-height: 50px;
+  padding: 0 20px;
+  color: #4bae4f;
+  font-size: 44px;
+  font-weight: 700;
+  position: relative;
+  letter-spacing: 5px;
+}
+.type-1904 .img .slide-band6 .info-1 p {
+  font-size: 28px;
+  color: #505050;
+}
+.type-1904 .img .slide-band6 .info-1 .button {
+  background-color: #4bae4f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.type-1904 .img .slide-band6 .info-1 .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  font-weight: 700;
+}
+.type-1904 .img .slide-band6 .info-1 .button span ::after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.type-1904 .img .slide-band6 .info-1 .button .button:hover {
+  background-color: #3e8e41;
+}
+.type-1904 .img .slide-band6 .info-1 .button .button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.type-1904 .img .slide-band6 .info-1 .button .item-adv-simple .wrapper {
   padding-bottom: 20px;
 }
-.type-1904 .item-adv-simple a::before {
+.type-1904 .img .slide-band6 .info-2 {
+  bottom: 235px;
+  left: 170px;
+  padding: 25px;
+  position: absolute;
+  color: #fff;
+}
+.type-1904 .img .slide-band6 .info-2 h3 {
+  font-size: 23px;
+  font-weight: 700;
+}
+.type-1904 .img .slide-band6 .info-2 p {
+  font-size: 14px;
+}
+.type-1904 .img .slide-band6 .info-2 span {
+  font-size: 20px;
+}
+.type-1904 .img .slide-band6 .info-3 {
+  bottom: 27px;
+  left: 206px;
+  padding: 25px;
+  position: absolute;
+  color: #4bae4f;
+}
+.type-1904 .img .slide-band6 .info-3 h3 {
+  font-size: 23px;
+  font-weight: 700;
+}
+.type-1904 .img .slide-band6 .info-3 p {
+  color: #595957;
+}
+.type-1904 .img .slide-band6 .item-adv-simple a::before {
   border-bottom: 1px solid rgba(255,255,255,0.8);
   border-top: 1px solid rgba(255,255,255,0.8);
   bottom: 20px;
@@ -18,7 +117,7 @@
   -moz-transform: scale(0,1);
   z-index: 9;
 }
-.type-1904 .item-adv-simple a::after {
+.type-1904 .img .slide-band6 .item-adv-simple a::after {
   border-left: 1px solid rgba(255,255,255,0.8);
   border-right: 1px solid rgba(255,255,255,0.8);
   bottom: 20px;

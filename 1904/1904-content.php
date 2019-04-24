@@ -10,34 +10,60 @@ $url_path = str_replace('\\', '/', $url_path);
 
 <div class="type-1904">
     <div class="container">
-        <div class="row">
-            <div class="slide-band6 col-sm-8">
-                <div class="wrapper">
-                    <div class="single-img">
-                        <figure class="wrapper item-adv-simple">
-                            <a href="#" class="vc_single_image-wrapper   vc_box_border_grey">
-                                <img width="780" height="400" src="images/ad4-2.jpg" class="responsive">
-                            </a>
-                        </figure>
+        <div class="row img">
+            <div class="col-md-12 slide-band6">
+                <div class="col-md-8 img1">
+                    <div class="wrapper">
+                        <div class="single-img">
+                            <div class="wrapper item-adv-simple">
+                                <a href="#" class="img-sale">
+                                    <img width="780" height="400" src="images/ad4-2.jpg" class="responsive">
+                                </a>
+                            </div>
+                            <div class="promotion info-1">
+                                <h1>Siemens</h1>
+                                <p>Magnetom Avanto</p>
+                                <button class="button">
+                                    <span>Shop Now</span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="wrapper">
-                    <div class="single-img item-adv-simple">
-                        <figure class="wrapper">
-                            <a href="#">
-                                <img width="370" height="190" src="images/ad5-1.jpg">
-                            </a>
-                        </figure>
-                    </div>
-                    
-                    <div class="single-img item-adv-simple">
-                        <figure class="wrapper">
-                            <a href="#">
-                                <img width="370" height="190" src="images/ad6.jpg">
-                            </a>
-                        </figure>
+                <div class="col-md-4 img2">
+                    <div class="wrapper">
+                        <div class="single-img item-adv-simple">
+                            <div class="wrapper item-adv-simple">
+                                <a href="#">
+                                    <img width="370" height="190" src="images/ad5-1.jpg">
+                                </a>
+                            </div>
+
+                            <div class="promotion info-2">
+                                <h3>Cupcake Corer</h3>
+                                <p>Commercial Cookware</p>
+                                <span class="money">
+                                    <span class="icon">$</span>
+                                    200.00
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="single-img item-adv-simple item2">
+                            <div class="wrapper item-adv-simple ">
+                                <a href="#">
+                                    <img width="370" height="190" src="images/ad6.jpg">
+                                </a>
+                            </div>
+                            <div class="promotion info-3">
+                                <h3>Piece OXO</h3>
+                                <p>Holder with Tools Set</p>
+                                <span class="money">
+                                    <span class="icon">$</span>
+                                    80.00
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
