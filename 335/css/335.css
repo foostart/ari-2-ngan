@@ -58,12 +58,6 @@
   font-weight: 600;
   display: inline-block;
 }
-.type-335 .wrapper {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-}
 .type-335 .panel-group {
   margin: 20px 0;
 }
