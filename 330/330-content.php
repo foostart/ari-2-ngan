@@ -20,17 +20,12 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="header-right">
                         <p><a href="">login</a> / <a href="">register</a></p>
-                        <div class="dropdown ">
-                            <div class="dropdown-toggle text-danger"  data-toggle="dropdown">
-                                <strong>USD</strong>
-                            </div>
-                            <div class="dropdown-menu" >
-                                <a class="dropdown-item" href="#">Menu 1</a>
-                                <a class="dropdown-item" href="#">Menu item 2</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Menu 3 ...</a>
-                            </div>
-                        </div>
+                        <select>
+                            <option value="usd">USD</option>
+                            <option value="vnd">VND</option>
+                            <option value="eur">EUR</option>
+                            <option value="cad">CAD</option>
+                        </select>
                         <img src="images/flag.png" alt=""/>
                     </div>
                 </div>

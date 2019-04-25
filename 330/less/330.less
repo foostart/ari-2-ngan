@@ -1,6 +1,7 @@
 .type-330{
     @font-12:12px;
     @color:#e8e8e8;
+    @font-w: 400;
     /*-----------Phan header------------------*/
     .topheader{
         background: none repeat scroll 0 0 #212121;
@@ -15,12 +16,12 @@
         p{
             color: @color;
             font-size: @font-12;
-            font-weight: 400;
+            font-weight: @font-w;
             text-transform: uppercase;
         }
         span{
             color: #ff6766;
-            font-weight: 600;
+            font-weight: @font-w;
             margin-left: 4px;
         }
     }
@@ -30,32 +31,26 @@
             float: left;
             color: @color;
             font-size: 12px;
-            font-weight: 500;
+            font-weight: @font-w;
             text-transform: uppercase;
-            margin-right: 5px;
+            margin-right: 20px;
+            margin-top: 1px;
         }
         a{
-            color: #fff;
+            color: @color;
         }
         a:hover{
             text-decoration: none;
             color: red;
         }
-        img{
-            float: left;
-        }
-    }
-    .dropdown{
-        float: left;
-        margin-right: 15px;
-    }
-    .dropdown-menu li a{
-        color: #000;
-    }
-    
-    @media (max-width: 768px){
-        .col-xs-12{
-            width: 50%;
+
+        select{
+            font-size: 12px;
+            font-weight: @font-w;
+            border: none;
+            background: none repeat scroll 0 0 #212121;
+            color: @color;
+
         }
     }
 }

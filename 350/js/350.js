@@ -10,5 +10,11 @@ $(document).ready(function () {
             prevEl: '.swiper-button-prev',
             nextEl: '.swiper-button-next',
         },
+        breakpoints: {
+            767: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+            }
+        }
     });
 });

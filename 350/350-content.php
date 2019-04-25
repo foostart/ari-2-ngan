@@ -13,10 +13,17 @@ $url_path = str_replace('\\', '/', $url_path);
             <!-----------------------Begin Slide Show-------------------------------------->
             <div class="col-md-2">           
                 <h5 class="title"><span>OUR PARTNERS // TEHNOLOGIES USED</span></h5>
-                <div class="col-md-1">
-                    
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+                <div class="col-md-1 button">
+                    <div class="owl-controls">
+                        <div class="owl-buttons">
+                            <div class="swiper-button-prev">
+                                <span class="fa fa-angle-left"></span>
+                            </div>
+                            <div class="swiper-button-next">
+                                <span class="fa fa-angle-right"></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 

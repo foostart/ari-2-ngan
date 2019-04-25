@@ -14,7 +14,7 @@
 }
 .type-330 .headerleft span {
   color: #ff6766;
-  font-weight: 600;
+  font-weight: 400;
   margin-left: 4px;
 }
 .type-330 .header-right {
@@ -24,29 +24,26 @@
   float: left;
   color: #e8e8e8;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 400;
   text-transform: uppercase;
-  margin-right: 5px;
+  margin-right: 20px;
+  margin-top: 1px;
 }
 .type-330 .header-right a {
-  color: #fff;
+  color: #e8e8e8;
 }
 .type-330 .header-right a:hover {
   text-decoration: none;
   color: red;
 }
-.type-330 .header-right img {
-  float: left;
+.type-330 .header-right select {
+  font-size: 12px;
+  font-weight: 400;
+  border: none;
+  background: none repeat scroll 0 0 #212121;
+  color: #e8e8e8;
 }
-.type-330 .dropdown {
-  float: left;
-  margin-right: 15px;
-}
-.type-330 .dropdown-menu li a {
-  color: #000;
-}
-@media (max-width: 768px) {
-  .type-330 .col-xs-12 {
-    width: 50%;
-  }
+.type-330 .header-right select option:hover {
+  text-decoration: none;
+  color: red;
 }

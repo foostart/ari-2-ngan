@@ -274,6 +274,7 @@
 .type-1903 .product-box .product-info h3.title-product {
   font-size: 14px;
   margin: 0 0 8px;
+  text-align: left;
 }
 .type-1903 .product-box .product-info h3.title-product a {
   color: #333;
@@ -302,5 +303,8 @@
   .type-1903 .supperdeal-countdown,
   .type-1903 .adv-home6 {
     margin-left: 50px;
+  }
+  .type-1903 .tabcontent .owl-controls {
+    display: none;
   }
 }
