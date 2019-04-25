@@ -1,0 +1,83 @@
+.type-1921 .slide-right {
+  text-align: center;
+}
+.type-1921 .slide-right .single_image_1 {
+  padding-bottom: 20px;
+}
+.type-1921 .slide-right .single_image_1 .figure-image {
+  position: relative;
+}
+.type-1921 .slide-right .single_image_1 .figure-image a {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+  transition: border 2s;
+}
+.type-1921 .slide-right .single_image_1 .figure-image a img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+}
+.type-1921 .slide-right .single_image_1 .figure-image .title-image {
+  padding: 5px 10px;
+  position: absolute;
+  top: 20px;
+  left: 22px;
+  right: 22px;
+  bottom: 20px;
+  color: #FDFEDA;
+  text-align: left;
+  font-family: "Open Sans";
+  border: none;
+}
+.type-1921 .slide-right .single_image_1 .figure-image .title-image h3 {
+  font-weight: bold;
+}
+.type-1921 .slide-right .single_image_1 .figure-image .title-image span {
+  font-size: 26px;
+  font-weight: 600;
+}
+.type-1921 .slide-right .single_image_1 .figure-image:hover .title-image {
+  border: 1px solid #fff;
+  transition: border .35s linear;
+}
+.type-1921 .slide-right .single_image_2 .figure-image {
+  position: relative;
+}
+.type-1921 .slide-right .single_image_2 .figure-image a {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+  transition: border 2s;
+}
+.type-1921 .slide-right .single_image_2 .figure-image a img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+}
+.type-1921 .slide-right .single_image_2 .figure-image .title-image-2 {
+  position: absolute;
+  padding: 5px 10px;
+  top: 20px;
+  left: 22px;
+  right: 22px;
+  bottom: 20px;
+  text-align: left;
+  font-family: "Open Sans";
+  border: none;
+}
+.type-1921 .slide-right .single_image_2 .figure-image .title-image-2 h3 {
+  color: #51A94D;
+  font-weight: bold;
+}
+.type-1921 .slide-right .single_image_2 .figure-image .title-image-2 p {
+  color: #959FA0;
+}
+.type-1921 .slide-right .single_image_2 .figure-image .title-image-2 span {
+  font-size: 26px;
+  font-weight: 600;
+  color: #51A94D;
+}
+.type-1921 .slide-right .single_image_2 .figure-image:hover .title-image-2 {
+  border: 1px solid #fff;
+}
