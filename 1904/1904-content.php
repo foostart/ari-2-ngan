@@ -14,28 +14,29 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="col-md-12 slide-band6">
                 <div class="col-md-8 img1">
                     <div class="wrapper">
-                        <div class="single-img">
+                        <div class="single-img item-adv-simple">
                             <div class="wrapper item-adv-simple">
                                 <a href="#" class="img-sale">
-                                    <img width="780" height="400" src="images/ad4-2.jpg" class="responsive">
+                                    <img width="780" height="400" src="images/ad4-2.jpg" class="img-responsive">
                                 </a>
+                                <div class="promotion info-1">
+                                    <h1>Siemens</h1>
+                                    <p>Magnetom Avanto</p>
+                                    <button class="button">
+                                        <span>Shop Now</span>
+                                    </button>
+                                </div>
                             </div>
-                            <div class="promotion info-1">
-                                <h1>Siemens</h1>
-                                <p>Magnetom Avanto</p>
-                                <button class="button">
-                                    <span>Shop Now</span>
-                                </button>
-                            </div>
+
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 img2">
                     <div class="wrapper">
-                        <div class="single-img item-adv-simple">
+                        <div class="single-img item-adv-simple item1">
                             <div class="wrapper item-adv-simple">
                                 <a href="#">
-                                    <img width="370" height="190" src="images/ad5-1.jpg">
+                                    <img src="images/ad5-1.jpg" class="img-responsive">
                                 </a>
                             </div>
 
@@ -52,16 +53,16 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="single-img item-adv-simple item2">
                             <div class="wrapper item-adv-simple ">
                                 <a href="#">
-                                    <img width="370" height="190" src="images/ad6.jpg">
+                                    <img src="images/ad6.jpg" class="img-responsive">
                                 </a>
-                            </div>
-                            <div class="promotion info-3">
-                                <h3>Piece OXO</h3>
-                                <p>Holder with Tools Set</p>
-                                <span class="money">
-                                    <span class="icon">$</span>
-                                    80.00
-                                </span>
+                                <div class="promotion info-3">
+                                    <h3>Piece OXO</h3>
+                                    <p>Holder with Tools Set</p>
+                                    <span class="money">
+                                        <span class="icon">$</span>
+                                        80.00
+                                    </span>
+                                </div>
                             </div>
                         </div>
                     </div>
