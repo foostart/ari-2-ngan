@@ -228,10 +228,12 @@
   }
 }
 @media (min-width: 768px) {
-  .type-679 .navigation_menu .collapse {
-    display: none;
-  }
   .type-679 .col-sm-12 {
     width: 50%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .type-679 #collap {
+    display: block;
   }
 }

@@ -40,12 +40,12 @@ $url_path = str_replace('\\', '/', $url_path);
             <h1 class="logo"> 
                 <a> <img alt="Porto" data-sticky-width="82" data-sticky-height="40" src="images/logo.png"> </a>
             </h1>
-            <button class="lms_menu_toggle" data-toggle="collapse" data-target=".nav-main-collapse"><i class="fa fa-bars"></i></button> 
+            <button class="lms_menu_toggle" data-toggle="collapse" data-target="#collap"><i class="fa fa-bars"></i></button> 
 
         </div>
 
         <!-- </div> -->
-        <div class="navbar-collapse nav-main-collapse collapse navigation_menu">
+        <div id="collap" class="navigation_menu collapse">
             <div class="container mega_menu_container">
                 <nav class="nav-main mega-menu">
                     <ul id="mainMenu" class="nav navbar nav-pills nav-main">
