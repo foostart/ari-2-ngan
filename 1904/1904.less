@@ -1,5 +1,10 @@
 .type-1904{
-
+    @background-button: #4bae4f;
+    @font-weight700: 700;
+    @size20: 20px;
+    @size25: 25px;
+    @size30: 30px;
+    @size40: 40px;
     .img{
         img.img-responsive{
             position: relative;
@@ -25,7 +30,7 @@
                 position: absolute;
                 top: 20%;
                 right: 30px;
-                padding: 25px;
+                padding: @size25;
                 text-transform: uppercase;
                 text-align: center;
                 h1{
@@ -34,7 +39,7 @@
                     padding: 0 20px;
                     color: #4bae4f;
                     font-size: 44px;
-                    font-weight: 700;
+                    font-weight: @font-weight700;
                     position: relative;
                     letter-spacing: 5px;
                 }
@@ -45,7 +50,7 @@
                 }
 
                 .button{
-                    background-color: #4bae4f;
+                    background-color: @background-button;
                     border: none;
                     color: white;
                     padding: 15px 32px;
@@ -60,7 +65,7 @@
                         display: inline-block;
                         position: relative;
                         transition: 0.5s;
-                        font-weight: 700;
+                        font-weight: @font-weight700;
 
                         ::after {
                             content: '\00bb';
@@ -89,7 +94,7 @@
             .info-2{
                 bottom: 235px;
                 left: 170px;
-                padding: 25px;
+                padding: @size25;
                 position: absolute;
                 color: #fff;
 
@@ -110,13 +115,13 @@
             .info-3{
                 bottom: 27px;
                 left: 206px;
-                padding: 25px;
+                padding: @size25;
                 position: absolute;
                 color: #4bae4f;;
 
                 h3{
                     font-size: 23px;
-                    font-weight: 700;
+                    font-weight: @font-weight700;
                 }
 
                 p{
@@ -308,7 +313,7 @@
                     .info-2{
                         padding: 24px;
                         left: 180px;
-                        top: 25px;
+                        top: @size25;
 
                         h3{
                             font-size: 20px;
@@ -319,7 +324,7 @@
         } 
         .info-3{
             left: 190px!important;
-            bottom: 25px!important;
+            bottom: @size25!important;
 
             h3{
                 font-size: 20px!important;
