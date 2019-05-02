@@ -1,0 +1,272 @@
+.type-1904 .img {
+  padding-top: 50px;
+}
+.type-1904 .img img.img-responsive {
+  position: relative;
+}
+.type-1904 .img .slide-band6 {
+  padding-left: 0;
+}
+.type-1904 .img .slide-band6 .img1 {
+  padding-left: 0;
+}
+.type-1904 .img .slide-band6 .img2 .wrapper {
+  padding-left: 5px;
+}
+.type-1904 .img .slide-band6 .img2 .wrapper .single-img.item-adv-simple.item2 {
+  padding-top: 32px;
+}
+.type-1904 .img .slide-band6 .info-1 {
+  position: absolute;
+  top: 20%;
+  right: 30px;
+  padding: 25px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.type-1904 .img .slide-band6 .info-1 h1 {
+  display: inline-block;
+  line-height: 50px;
+  padding: 0 20px;
+  color: #4bae4f;
+  font-size: 44px;
+  font-weight: 700;
+  position: relative;
+  letter-spacing: 5px;
+}
+.type-1904 .img .slide-band6 .info-1 p {
+  font-size: 28px;
+  color: #505050;
+}
+.type-1904 .img .slide-band6 .info-1 .button {
+  background-color: #4bae4f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.type-1904 .img .slide-band6 .info-1 .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  font-weight: 700;
+}
+.type-1904 .img .slide-band6 .info-1 .button span ::after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.type-1904 .img .slide-band6 .info-1 .button .button:hover {
+  background-color: #3e8e41;
+}
+.type-1904 .img .slide-band6 .info-1 .button .button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.type-1904 .img .slide-band6 .info-1 .button .item-adv-simple .wrapper {
+  padding-bottom: 20px;
+}
+.type-1904 .img .slide-band6 .info-2 {
+  bottom: 235px;
+  left: 170px;
+  padding: 25px;
+  position: absolute;
+  color: #fff;
+}
+.type-1904 .img .slide-band6 .info-2 h3 {
+  font-size: 23px;
+  font-weight: 700;
+}
+.type-1904 .img .slide-band6 .info-2 p {
+  font-size: 14px;
+}
+.type-1904 .img .slide-band6 .info-2 span {
+  font-size: 20px;
+}
+.type-1904 .img .slide-band6 .info-3 {
+  bottom: 27px;
+  left: 206px;
+  padding: 25px;
+  position: absolute;
+  color: #4bae4f;
+}
+.type-1904 .img .slide-band6 .info-3 h3 {
+  font-size: 23px;
+  font-weight: 700;
+}
+.type-1904 .img .slide-band6 .info-3 p {
+  color: #595957;
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .type-1904 .wrapper.item-adv-simple {
+    padding-left: 30px;
+  }
+  .type-1904 .wrapper.item-adv-simple img {
+    width: auto;
+  }
+  .type-1904 .img .slide-band6 .info-1 {
+    top: 40px;
+    right: 40px;
+  }
+  .type-1904 .img .slide-band6 .info-1 h1 {
+    font-size: 30px;
+  }
+  .type-1904 .img .slide-band6 .info-1 p {
+    font-size: 20px;
+  }
+  .type-1904 .img .slide-band6 .img2 {
+    top: 20px;
+    padding-left: 100px;
+  }
+  .type-1904 .img .slide-band6 .img2 .wrapper {
+    padding-left: 22px;
+  }
+  .type-1904 .img .slide-band6 .img2 .wrapper .item1 {
+    padding-top: 20px;
+  }
+  .type-1904 .img .slide-band6 .img2 .wrapper .info-2 {
+    left: 310px;
+  }
+  .type-1904 .img .slide-band6 .info-3 {
+    left: 330px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .type-1904 .wrapper.item-adv-simple {
+    padding-left: 30px;
+  }
+  .type-1904 .wrapper.item-adv-simple img {
+    width: auto;
+  }
+  .type-1904 .img .slide-band6 .info-1 {
+    top: 40px;
+    right: 40px;
+  }
+  .type-1904 .img .slide-band6 .info-1 h1 {
+    font-size: 44px;
+  }
+  .type-1904 .img .slide-band6 .info-1 p {
+    font-size: 28px;
+  }
+  .type-1904 .img .slide-band6 .img2 {
+    top: 20px;
+    padding-left: 140px;
+  }
+  .type-1904 .img .slide-band6 .img2 .wrapper {
+    padding-left: 22px;
+  }
+  .type-1904 .img .slide-band6 .img2 .wrapper .item1 {
+    padding-top: 20px;
+  }
+  .type-1904 .img .slide-band6 .img2 .wrapper .info-2 {
+    left: 348px;
+  }
+  .type-1904 .img .slide-band6 .info-3 {
+    left: 370px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .type-1904 .wrapper.item-adv-simple {
+    padding-left: 30px;
+  }
+  .type-1904 .wrapper.item-adv-simple img {
+    width: auto;
+  }
+  .type-1904 .img .slide-band6 .info-1 {
+    top: 8px;
+    right: 10px;
+  }
+  .type-1904 .img .slide-band6 .info-1 h1 {
+    font-size: 44px;
+  }
+  .type-1904 .img .slide-band6 .info-1 p {
+    font-size: 28px;
+  }
+  .type-1904 .img .slide-band6 .img2 {
+    bottom: 21px;
+  }
+  .type-1904 .img .slide-band6 .img2 .wrapper {
+    padding-left: 10px;
+  }
+  .type-1904 .img .slide-band6 .img2 .wrapper .item1 {
+    padding-top: 20px;
+  }
+  .type-1904 .img .slide-band6 .img2 .wrapper .item2 {
+    padding-top: 28px !important;
+  }
+  .type-1904 .img .slide-band6 .img2 .wrapper .info-2 {
+    padding: 24px;
+    left: 128px;
+    bottom: 165px;
+  }
+  .type-1904 .img .slide-band6 .img2 .wrapper .info-2 h3 {
+    font-size: 20px;
+  }
+  .type-1904 .info-3 {
+    left: 150px !important;
+    bottom: 5px;
+  }
+  .type-1904 .info-3 h3 {
+    font-size: 20px !important;
+  }
+  .type-1904 .info-3 p {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .type-1904 .wrapper.item-adv-simple {
+    padding-left: 30px;
+  }
+  .type-1904 .wrapper.item-adv-simple img {
+    width: auto;
+  }
+  .type-1904 .img .slide-band6 .info-1 {
+    top: 50px;
+    right: 40px;
+  }
+  .type-1904 .img .slide-band6 .info-1 h1 {
+    font-size: 44px;
+  }
+  .type-1904 .img .slide-band6 .info-1 p {
+    font-size: 28px;
+  }
+  .type-1904 .img .slide-band6 .img2 {
+    bottom: 21px;
+  }
+  .type-1904 .img .slide-band6 .img2 .wrapper {
+    padding-left: 10px;
+  }
+  .type-1904 .img .slide-band6 .img2 .wrapper .item1 {
+    padding-top: 20px;
+  }
+  .type-1904 .img .slide-band6 .img2 .wrapper .item2 {
+    padding-top: 28px !important;
+  }
+  .type-1904 .img .slide-band6 .img2 .wrapper .info-2 {
+    padding: 24px;
+    left: 180px;
+    top: 25px;
+  }
+  .type-1904 .img .slide-band6 .img2 .wrapper .info-2 h3 {
+    font-size: 20px;
+  }
+  .type-1904 .info-3 {
+    left: 190px !important;
+    bottom: 25px !important;
+  }
+  .type-1904 .info-3 h3 {
+    font-size: 20px !important;
+  }
+  .type-1904 .info-3 p {
+    font-size: 14px;
+  }
+}
