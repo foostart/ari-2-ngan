@@ -9,27 +9,36 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1915">
     <div class="container">
-        <div class="row top-row">
-            <div class="col-md-3 col-xs-12 faqs">
-                <h2>FAQS</h2>
-                <h3 class="accordion active">Flyout Content Area 1</h3>
-                <div class="panel content-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                </div>
-                <h3 class="accordion active">Flyout Content Area 2</h3>
-                <div class="panel content-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                </div>
-
-                <h3 class="accordion active">Flyout Content Area 3</h3>
-                <div class="panel content-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
+        <div class="row">
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <div class="sidebar-left sidebar-post">
+                    <div class="sidebar-widget widget widget_text">
+                        <h3 class="widget-title">FAQS</h3>			
+                        <div class="textwidget">
+                            <ul class="list-post-faq">
+                                <li class="active">
+                                    <h3>Flyout Content Area 1</h3>
+                                    <p>Porem ipsum dolor sit amet, ctetur adip isicing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna</p>
+                                </li>
+                                <li>
+                                    <h3>Flyout Content Area 2</h3>
+                                    <p>Porem ipsum dolor sit amet, ctetur adip isicing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna</p>
+                                </li>
+                                <li>
+                                    <h3>Flyout Content Area 3</h3>
+                                    <p>Porem ipsum dolor sit amet, ctetur adip isicing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna</p>
+                                </li>
+                                <li>
+                                    <h3>Flyout Content Area 4</h3>
+                                    <p>Porem ipsum dolor sit amet, ctetur adip isicing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna</p>
+                                </li>
+                                <li>
+                                    <h3>Flyout Content Area 5</h3>
+                                    <p>Porem ipsum dolor sit amet, ctetur adip isicing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
