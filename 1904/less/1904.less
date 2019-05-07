@@ -5,25 +5,61 @@
     @size25: 25px;
     @size30: 30px;
     @size40: 40px;
+
+    .item-adv-simple a{
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        max-width: 100%;
+    }
+
+    .item-adv-simple a:before{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+        border-top: 1px solid rgba(255, 255, 255, 0.8);
+        bottom: 20px;
+        content: "";
+        left: 15px;
+        position: absolute;
+        right: 15px;
+        top: 20px;
+        transform: scale(0, 1);
+        -webkit-transform: scale(0, 1);
+        -moz-transform: scale(0, 1);
+        z-index: 9;
+    }
+    .item-adv-simple a:after{
+        border-left: 1px solid rgba(255, 255, 255, 0.8);
+        border-right: 1px solid rgba(255, 255, 255, 0.8);
+        bottom: 20px;
+        content: "";
+        left: 15px;
+        position: absolute;
+        right: 15px;
+        top: 20px;
+        transform: scale(1, 0);
+        -webkit-transform: scale(1, 0);
+        z-index: 9;
+    }
+    .item-adv-simple:hover a:before, .item-adv-simple:hover a:after {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: all 0.3s ease-out 0s;
+        transition: all 0.3s ease-out 0s;
+    }
+
     .img{
         img.img-responsive{
             position: relative;
         }
-        padding-top: 50px;
+        padding-top: 20px;
         .slide-band6{
-            padding-left: 0;
 
             .img1{
-                padding-left: 0;
+                padding: 0;
             }
-
-            .img2{ 
-                .wrapper{
-                    padding-left: 5px;
-
-                    .single-img.item-adv-simple.item2{
-                        padding-top: 32px;
-                    }
+            .img2{                 
+                .single-img.item-adv-simple.item2{
+                    padding-top: 25px;
                 }
             }
             .info-1{
@@ -131,18 +167,29 @@
         }
     }
     @media only screen and (min-width: 480px) and (max-width: 767px){  
+        .img1 {
+            padding: 15px!important;
+        }
         .wrapper.item-adv-simple{
-            padding-left: 30px;
 
             img{
                 width: auto;
             }
+
+            text-align: center;
+        }
+
+        .item-adv-simple a:after{
+            display: none;
+        }
+        .item-adv-simple a:before{
+            display: none;
         }
 
         .img .slide-band6 {
             .info-1{
-                top: 40px;
-                right: 40px;
+                top: 20px;
+                right: 25px;
                 h1{
                     font-size: 30px;
                 }
@@ -153,33 +200,41 @@
             }
 
             .img2{
-                top: 20px;
-                padding-left: 100px;
                 .wrapper{
-                    padding-left: 22px;
 
-                    .item1{
+                    .item1, .item2{
                         padding-top: 20px;
                     }
 
                     .info-2{
-                        left: 310px;
+                        left: 255px;
+                    }
+
+                    .info-3{
+                        left: 260px;
                     }
                 }
             } 
-            .info-3{
-                left: 330px;
-            }
         }
     }
 
-    @media only screen and (min-width: 768px) and (max-width: 991px){  
+    @media only screen and (min-width: 768px) and (max-width: 991px){ 
+        .img1 {
+            padding: 15px!important;
+        }
         .wrapper.item-adv-simple{
-            padding-left: 30px;
 
             img{
                 width: auto;
             }
+            text-align: center;
+        }
+
+        .item-adv-simple a:after{
+            display: none;
+        }
+        .item-adv-simple a:before{
+            display: none;
         }
 
         .img .slide-band6 {
@@ -196,29 +251,26 @@
             }
 
             .img2{
-                top: 20px;
-                padding-left: 140px;
                 .wrapper{
-                    padding-left: 22px;
-
-                    .item1{
+                    .item1, .item2{
                         padding-top: 20px;
                     }
 
                     .info-2{
                         left: 348px;
                     }
+
+                    .info-3{
+                        left: 370px;
+                    }
                 }
             } 
-            .info-3{
-                left: 370px;
-            }
+
         }
     }
 
     @media only screen and (min-width: 992px){   
         .wrapper.item-adv-simple{
-            padding-left: 30px;
 
             img{
                 width: auto;
@@ -239,28 +291,32 @@
 
             .img2{
                 bottom: 21px;
+                left: 12px;
                 .wrapper{
-                    padding-left: 10px;
+
+                    .single-img.item-adv-simple.item2{
+                        padding-top: 31px;
+                    }
 
                     .item1{
                         padding-top: 20px;
-                    }
-                    
-                    .item2{
-                        padding-top: 28px!important;
                     }
 
                     .info-2{
                         padding: 24px;
                         left: 128px;
-                        bottom: 165px;
+                        bottom: 190px;
 
                         h3{
-                            font-size: 20px;
+                            font-size: 19px;
                         }
                     }
+                    
+                    .info-3{
+                        bottom: 10px;
+                    }
                 }
-            }
+            } 
         } 
         .info-3{
             left: 150px!important;
@@ -275,10 +331,9 @@
             }
         }
     }
-    
+
     @media only screen and (min-width: 1200px){ 
         .wrapper.item-adv-simple{
-            padding-left: 30px;
 
             img{
                 width: auto;
@@ -300,14 +355,9 @@
             .img2{
                 bottom: 21px;
                 .wrapper{
-                    padding-left: 10px;
 
                     .item1{
                         padding-top: 20px;
-                    }
-                    
-                    .item2{
-                        padding-top: 28px!important;
                     }
 
                     .info-2{
