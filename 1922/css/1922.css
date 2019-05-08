@@ -20,6 +20,9 @@
   width: 100px;
   text-transform: uppercase;
 }
+.type-1922 .form button:hover {
+  background: #fe9c00 none repeat scroll 0 0;
+}
 .type-1922 .form h2 {
   font-size: 18px;
   font-weight: bold;

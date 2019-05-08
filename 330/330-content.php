@@ -26,7 +26,9 @@ $url_path = str_replace('\\', '/', $url_path);
                             <option value="eur">EUR</option>
                             <option value="cad">CAD</option>
                         </select>
-                        <img src="images/flag.png" alt=""/>
+                        <a href="#" class="img-hover">
+                            <img src="images/flag.png" alt=""/>
+                        </a>
                     </div>
                 </div>
             </div>

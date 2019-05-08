@@ -60,36 +60,32 @@
         background: @color-carousel-caption;
     }
 
-    .swiper-button-prev, .swiper-button-next {
-        background: @color-bg-next-back-button;
-        cursor: pointer;
-        height: 40px;
-        margin-top: -45px;
-        position: absolute;
-        top: 50%;
+    .next682, .prev682{
         width: 40px;
-        z-index: 2;
+        height: 40px;
+        line-height: 40px;
+        background: #333 none repeat scroll 0 0;
+        text-align: center;
     }
 
-    .swiper-button-prev {
-        left: 0;
-    }
-    .swiper-button-next {
+    .next682{
         right: 0;
     }
-    .swiper-button-prev > span {
-        background: url(../images/camera_skins.png) no-repeat 0 0;
-        display: block;
-        height: 40px;
-        width: 40px;
+
+    .prev682{
+        left: 0;
     }
 
-    .swiper-button-next > span {
-        background: url(../images/camera_skins.png) no-repeat -40px 0;
-        display: block;
-        height: 40px;
-        width: 40px;
+    .arrow682{
+        .next682, .prev682{
+            opacity: .5;
+        }
     }
+
+    .next682:hover, .prev682:hover{
+        opacity: 2;
+    }
+
     .timer {
         height: 1%;
         width: 0%;
@@ -132,12 +128,12 @@
             width: 16px;
         }
     }
-    
+
     @media (max-width: 768px){
         .carousel-caption{
             font-size: 14px;
         }
-        
+
         .carousel-caption h1{
             font-size: 25px;
         }

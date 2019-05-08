@@ -29,7 +29,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     350.00
                                                 </span>
                                             </h3>
-
                                         </a>
                                     </div>
                                 </div>
@@ -46,7 +45,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     170.00
                                                 </span>
                                             </h3>
-
                                         </a>
                                     </div>
                                 </div>

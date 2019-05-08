@@ -47,34 +47,27 @@
   text-align: center;
   background: rgba(0,0,0,0.4);
 }
-.type-682 .swiper-button-prev,
-.type-682 .swiper-button-next {
-  background: rgba(216,216,216,0.85);
-  cursor: pointer;
-  height: 40px;
-  margin-top: -45px;
-  position: absolute;
-  top: 50%;
+.type-682 .next682,
+.type-682 .prev682 {
   width: 40px;
-  z-index: 2;
+  height: 40px;
+  line-height: 40px;
+  background: #333 none repeat scroll 0 0;
+  text-align: center;
 }
-.type-682 .swiper-button-prev {
-  left: 0;
-}
-.type-682 .swiper-button-next {
+.type-682 .next682 {
   right: 0;
 }
-.type-682 .swiper-button-prev > span {
-  background: url(../images/camera_skins.png) no-repeat 0 0;
-  display: block;
-  height: 40px;
-  width: 40px;
+.type-682 .prev682 {
+  left: 0;
 }
-.type-682 .swiper-button-next > span {
-  background: url(../images/camera_skins.png) no-repeat -40px 0;
-  display: block;
-  height: 40px;
-  width: 40px;
+.type-682 .arrow682 .next682,
+.type-682 .arrow682 .prev682 {
+  opacity: .5;
+}
+.type-682 .next682:hover,
+.type-682 .prev682:hover {
+  opacity: 2;
 }
 .type-682 .timer {
   height: 1%;

@@ -27,8 +27,9 @@ $less->compileFile('less/1903.less', 'css/1903.css');
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/swiper.min.js" type="text/javascript"></script>
         <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-        <script src="js/kinetic.js" type="text/javascript"></script>
-        <script src="js/jquery.final-countdown.js" type="text/javascript"></script>
+<!--        <script src="js/kinetic.js" type="text/javascript"></script>
+        <script src="js/jquery.final-countdown.js" type="text/javascript"></script>-->
+        <script src="js/TimeCircles.js" type="text/javascript"></script>
         <script src="js/1903.js" type="text/javascript"></script>
 <!--        Css-->
         <link href="css/swiper.min.css" rel="stylesheet" type="text/css"/>

@@ -34,54 +34,25 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </button>
                             </div>
                         </div>
-                        <div class="supperdeal-countdown">
-                            <div class="countdown">
-                                <div class="clock">
-                                    <div class="clock-item clock-days countdown-time-value">
-                                        <div class="wrap">
-                                            <div class="inner">
-                                                <div id="canvas-days" class="clock-canvas"></div>
-                                                <div class="text">
-                                                    <p class="val">0</p>
-                                                    <p class="type-days type-time">day</p>
-                                                </div><!-- /.text -->
-                                            </div><!-- /.inner -->
-                                        </div><!-- /.wrap -->
-                                    </div><!-- /.clock-item -->
-                                    <div class="clock-item clock-hours countdown-time-value">
-                                        <div class="wrap">
-                                            <div class="inner">
-                                                <div id="canvas-hours" class="clock-canvas"></div>
-                                                <div class="text">
-                                                    <p class="val">0</p>
-                                                    <p class="type-hours type-time">hou</p>
-                                                </div><!-- /.text -->
-                                            </div><!-- /.inner -->
-                                        </div><!-- /.wrap -->
-                                    </div><!-- /.clock-item -->
-                                    <div class="clock-item clock-minutes countdown-time-value">
-                                        <div class="wrap">
-                                            <div class="inner">
-                                                <div id="canvas-minutes" class="clock-canvas"></div>
-                                                <div class="text">
-                                                    <p class="val">0</p>
-                                                    <p class="type-minutes type-time">min</p>
-                                                </div><!-- /.text -->
-                                            </div><!-- /.inner -->
-                                        </div><!-- /.wrap -->
-                                    </div><!-- /.clock-item -->
-                                    <div class="clock-item clock-seconds countdown-time-value">
-                                        <div class="wrap">
-                                            <div class="inner">
-                                                <div id="canvas-seconds" class="clock-canvas"></div>
-                                                <div class="text">
-                                                    <p class="val">0</p>
-                                                    <p class="type-seconds type-time">sec</p>
-                                                </div><!-- /.text -->
-                                            </div><!-- /.inner -->
-                                        </div><!-- /.wrap -->
-                                    </div><!-- /.clock-item -->
-                                </div><!-- /.clock -->
+                        <div class="supperdeal-countdown" data-date="12/15/2018" data-tc-id="e37c4a25-3896-3a91-bfdb-3cb0b4f106d5">
+                            <div class="time_circles">
+                                <canvas width="225" height="56"></canvas>
+                                <div class="textDiv_Days" style="top: 20px; left: 0px; width: 56.25px;">
+                                    <span class="number">144</span>
+                                    <span class="text">day</span>
+                                </div>
+                                <div class="textDiv_Hours" style="top: 20px; left: 56px; width: 56.25px;">
+                                    <span class="number">21</span>
+                                    <span class="text">hou</span>
+                                </div>
+                                <div class="textDiv_Minutes" style="top: 20px; left: 113px; width: 56.25px;">
+                                    <span class="number">43</span>
+                                    <span class="text">min</span>
+                                </div>
+                                <div class="textDiv_Seconds" style="top: 20px; left: 169px; width: 56.25px;">
+                                    <span class="number">47</span>
+                                    <span class="text">sec</span>
+                                </div>
                             </div>
                         </div>
                         <div class="item-adv-simple adv-home6">

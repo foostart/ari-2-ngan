@@ -7,6 +7,8 @@
     @background_page: #ff9933;
     @size50: 50px;
     @size20: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     .supperdeal-deal6{
         border: 1px solid #e5e5e5;
         margin-bottom: @size50;
@@ -82,7 +84,12 @@
                     .active .fa-chevron-right{
                         float: right;
                         display: block;
+                        color: #4bae4f;
                     }
+                    .active{
+                        color: #4bae4f;
+                    }
+
                     button:hover {
                         color: #4bae4f;
                     }
@@ -97,47 +104,38 @@
             }
             .supperdeal-countdown{
                 position: relative;
-                width: fit-content;
-                .countdown{
-                    position: relative;
-
-                    .clock-item .inner {
-                        position: relative;	
-                        width: 49px;
-                    }
-
-                    .clock-canvas {
-                        background: #5f6062 none repeat scroll 0 0;
-                        border-radius: 50%;
-                        height: 0px;
-                        padding-bottom: 100%;
-                    }
-                    .text {
-                        font-size: 30px;
-                        margin-top: -50px;
-                        text-align: center;
-                        text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
-                        width: 100%;
-                    }
-                    .text .val {
-                        font-size: 15px;
-                        font-weight: 700;
-                        color: #fff;
-                        margin: 10px 0 -7px;
-                    }
-                    .text .type-time {
-                        color: #ccc;
-                        font-size: 12px;
-                    }
+                width: 225px;
+                margin-bottom: 20px;
+                .time_circles > div {
+                    background: #5f6062 none repeat scroll 0 0;
+                    border-radius: 50%;
+                    height: 52px;
+                    margin-top: -18px;
+                    position: absolute;
+                    text-align: center;
+                    width: 52px !important;
                 }
 
-                .clock-item clock-days, .countdown-time-value{
-                    float: left;
+                .number {
+                    color: #fff;
+                    display: block;
+                    font-weight: 700;
+                    margin: 10px 0 -7px;
+                }
+
+                .text {
+                    color: #ccc;
+                    font-size: 12px;
+                }
+
+                .time_circles canvas {
+                    left: -2px;
+                    position: relative;
+                    z-index: 999;
                 }
             }
             .item-adv-simple, .adv-home6 {
                 margin-bottom: 20px;
-                margin-top: 100px;
 
                 a{
                     position: relative;
@@ -367,12 +365,6 @@
         .item-adv-simple, .adv-home6{
             padding-left: 50px;
         }
-        .adv-home6 a:before{
-            display: none;
-        }
-        .adv-home6 a:after{
-            display: none;
-        }
 
         .tabcontent1903 .owl-controls{
             display: none;
@@ -405,13 +397,6 @@
             left: 15px;
         }
 
-        .adv-home6 a:before{
-            display: none;
-        }
-        .adv-home6 a:after{
-            display: none;
-        }
-
         .tabcontent1903 .owl-controls{
             display: none;
         }
@@ -422,6 +407,12 @@
             .supperdeal-tab{
                 margin-bottom: 0;
             }
+        }
+
+        .supperdeal-countdown {
+            text-align: center;
+            margin: 0 auto;
+
         }
     }
 
@@ -440,12 +431,34 @@
         .tabcontent1903 .owl-controls{
             display: none;
         }
+    }
 
-        .adv-home6 a:before{
+    @media only screen and (min-width: 992px){ 
+        .supperdeal-deal6 .supperdeal-sidebar .supperdeal-header ::before{
             display: none;
         }
-        .adv-home6 a:after{
+
+        .supperdeal-deal6 .supperdeal-sidebar {
+            padding-left: 0;
+        }
+
+        .tabcontent1903 .owl-controls{
             display: none;
         }
+    }
+
+    @media only screen and (min-width: 1200px){
+        .supperdeal-deal6 .supperdeal-sidebar .supperdeal-header ::before{
+            display: block;
+        }
+
+        .supperdeal-deal6 .supperdeal-sidebar {
+            padding-left: 45px;
+        }
+
+        .tabcontent1903 .owl-controls{
+            display: block;
+        }
+
     }
 }
