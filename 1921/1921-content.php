@@ -21,16 +21,16 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <div class="wrapper item-adv-simple">
                                         <a href="#">
                                             <img src="<?php echo $url_path ?>/images/ad1-2.jpg" class="img-responsive">
-                                        </a>
-                                    </div>
+                                            <h3>
+                                                LG 8803
+                                                <p>Aliquam tempus rutum</p>
+                                                <span class="money">
+                                                    <span class="icon">$</span>
+                                                    350.00
+                                                </span>
+                                            </h3>
 
-                                    <div class="promotion info-2">
-                                        <h3>LG 8803</h3>
-                                        <p>Aliquam tempus rutum</p>
-                                        <span class="money">
-                                            <span class="icon">$</span>
-                                            350.00
-                                        </span>
+                                        </a>
                                     </div>
                                 </div>
 
@@ -38,15 +38,16 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <div class="wrapper item-adv-simple ">
                                         <a href="#">
                                             <img src="<?php echo $url_path ?>/images/ad2-2.jpg" class="img-responsive">
+                                            <h3>
+                                                iPOD APPLE
+                                                <p>Aliquam tempus rutum</p>
+                                                <span class="money">
+                                                    <span class="icon">$</span>
+                                                    170.00
+                                                </span>
+                                            </h3>
+
                                         </a>
-                                    </div>
-                                    <div class="promotion info-3">
-                                        <h3>iPOD APPLE</h3>
-                                        <p>Aliquam tempus rutum</p>
-                                        <span class="money">
-                                            <span class="icon">$</span>
-                                            170.00
-                                        </span>
                                     </div>
                                 </div>
                             </div>
