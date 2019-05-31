@@ -16,7 +16,7 @@ $less = new lessc;
 $less->compileFile('less/350.less', 'css/350.css');
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
     <head>
         <title></title>
@@ -28,10 +28,10 @@ $less->compileFile('less/350.less', 'css/350.css');
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/350.css" rel="stylesheet" type="text/css" />
         
-        <script src="<?php echo $url_path ?>/js/swiper.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/350.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/350.js"></script>
         
     </head>
     <body>

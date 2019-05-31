@@ -16,7 +16,7 @@ $less = new lessc;
 $less->compileFile('less/682.less', 'css/682.css');
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
     <head>
         <title>Fundamentals of Project Management</title>
@@ -27,10 +27,10 @@ $less->compileFile('less/682.less', 'css/682.css');
         <link href="<?php echo $url_path ?>/css/682.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
         
-        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/swiper.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/682.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/682.js"></script>
     </head>
     <body>
         <?php include $dir_block . '/682-content.php'; ?>

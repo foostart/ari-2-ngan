@@ -16,7 +16,7 @@ if (!class_exists('lessc')) {
 $less = new lessc;
 $less->compileFile('less/1921.less', 'css/1921.css');
 ?>
-<html>
+<html lang="en">
     <head>
         <title> 1921 </title>
         <meta charset="UTF-8">

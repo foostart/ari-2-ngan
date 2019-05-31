@@ -23,16 +23,16 @@ $less->compileFile('less/1915.less', 'css/1915.css');
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <script src="<?php echo $url_path ?>/js/jquery.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/1915.js"></script>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/1915.css" rel="stylesheet" type="text/css"/>
+        <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/1915.js"></script>
     </head>
 
     <body>   
-        <?php $dir_block . include'1915-content.php'; ?>
+        <?php include $dir_block . '/1915-content.php'; ?>
 
     </body>
 </html>

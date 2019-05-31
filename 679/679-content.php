@@ -50,7 +50,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <nav class="mega-menu">
                     <ul id="mainMenu" class="nav navbar nav-pills">
                         <li class="dropdown main_item">
-                            <a href="#"data-toggle="dropdown">Home</a>
+                            <a href="#" data-toggle="dropdown">Home</a>
                         </li>
                         <li class="dropdown main_item mega_menu_item">
                             <a href="#" class="active">Courses</a>

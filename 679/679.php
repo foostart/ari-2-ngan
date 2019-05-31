@@ -18,7 +18,7 @@ $less->compileFile('less/679.less', 'css/679.css');
 
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
     <head>
         <title>Fundamentals of Project Management</title>
@@ -30,7 +30,7 @@ $less->compileFile('less/679.less', 'css/679.css');
 
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/679.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/679.js"></script>
     </head>
     <body>
         <?php include $dir_block.'/679-content.php'; ?>

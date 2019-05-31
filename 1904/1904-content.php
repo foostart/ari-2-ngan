@@ -19,7 +19,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="single-img item-adv-simple">
                                     <div class="wrapper item-adv-simple">
                                         <a href="#" class="img-sale">
-                                            <img width="780" height="400" src="<?php echo $url_path ?>/images/ad4-2.jpg" class="img-responsive">
+                                            <img width="780" height="400" src="<?php echo $url_path ?>/images/ad4-2.jpg" class="img-responsive" alt="">
                                             <h1>
                                                 Siemens
                                                 <p>Magnetom Avanto</p>
@@ -38,7 +38,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="single-img item-adv-simple item1">
                                     <div class="wrapper item-adv-simple">
                                         <a href="#">
-                                            <img src="<?php echo $url_path ?>/images/ad5-1.jpg" class="img-responsive">
+                                            <img src="<?php echo $url_path ?>/images/ad5-1.jpg" class="img-responsive" alt="">
                                             <h3>
                                                 Cupcake Corer
                                                 <p>Commercial Cookware</p>
@@ -54,7 +54,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="single-img item-adv-simple item2">
                                     <div class="wrapper item-adv-simple ">
                                         <a href="#">
-                                            <img src="<?php echo $url_path ?>/images/ad6.jpg" class="img-responsive">
+                                            <img src="<?php echo $url_path ?>/images/ad6.jpg" class="img-responsive" alt="">
                                             <h3>
                                                 Piece OXO
                                                 <p>Holder with Tools Set</p>

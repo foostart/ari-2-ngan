@@ -13,7 +13,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="images/slider-3.jpg" class="imgLoaded">
+                        <img src="images/slider-3.jpg" class="imgLoaded" alt="">
                         <div class="camerarelative" ></div>
                         <div class=" carousel-caption">
                             <h1>ALL KINDS OF STEEL PRODUCTS</h1>
@@ -21,7 +21,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="images/slider-1.jpg" class="imgLoaded">
+                        <img src="images/slider-1.jpg" class="imgLoaded" alt="">
                         <div class="camerarelative"></div>
                         <div class="carousel-caption">
                             <h1>STEEL’S BRANDED PRODUCTS AND SOLUTIONS</h1>
@@ -29,7 +29,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="images/slider-2.jpg" class="imgLoaded">
+                        <img src="images/slider-2.jpg" class="imgLoaded" alt="">
                         <div class="camerarelative"></div>
                         <div class="carousel-caption">
                             <h1>OUR MAIN GOAL IS CONTINUOUSLY SATISFY OUR CLIENTS</h1>

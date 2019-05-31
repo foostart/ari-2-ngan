@@ -17,7 +17,7 @@ $less->compileFile('less/335.less', 'css/335.css');
 ?>
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
     <head>
         <title>module335</title>
         <meta charset="UTF-8">
