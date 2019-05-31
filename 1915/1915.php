@@ -32,7 +32,7 @@ $less->compileFile('less/1915.less', 'css/1915.css');
     </head>
 
     <body>   
-<?php $dir_block . include'1915-content.php'; ?>
+        <?php $dir_block . include'1915-content.php'; ?>
 
     </body>
 </html>

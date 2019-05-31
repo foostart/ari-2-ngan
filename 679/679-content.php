@@ -12,7 +12,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="lms_header_top">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="col-sm-12 col-xs-12">
                         <div class="lms_any_que_wrapper">
                             <p>Have any question?</p>
                             <div class="lms_mobile">
@@ -24,7 +24,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="col-sm-12 col-xs-12">
                         <div class="lms_login_wrapper">
                             <ul>
                                 <li> <a href="#" title="Register">Register </a></li>  
@@ -47,34 +47,28 @@ $url_path = str_replace('\\', '/', $url_path);
         <!-- </div> -->
         <div id="collap" class="navigation_menu collapse">
             <div class="container mega_menu_container">
-                <nav class="nav-main mega-menu">
-                    <ul id="mainMenu" class="nav navbar nav-pills nav-main">
-                        <li class="dropdown main_item main_item_click">
-                            <a href="#" class="dropdown-toggle par_dropdown_toggle" data-toggle="dropdown">Home</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">residential space</a></li>
-                                <li><a href="#">comercial space</a></li>
-                                <li><a href="#">office space</a></li>
-                                <li><a href="#">charges</a></li>         
-                            </ul>
+                <nav class="mega-menu">
+                    <ul id="mainMenu" class="nav navbar nav-pills">
+                        <li class="dropdown main_item">
+                            <a href="#"data-toggle="dropdown">Home</a>
                         </li>
-                        <li class="dropdown main_item mega_menu_item main_item_click">
-                            <a href="#" class="dropdown-toggle par_dropdown_toggle active">Courses</a>
-                        </li>
-                        <li class="dropdown main_item  main_item_click">
-                            <a href="#" class="dropdown-toggle par_dropdown_toggle">Element</a>
-                        </li>
-                        <li class="dropdown main_item main_item_click">
-                            <a href="#" class="dropdown-toggle par_dropdown_toggle">Blog</a>
-                        </li>
-                        <li class="dropdown main_item main_item_click">
-                            <a href="#" class="dropdown-toggle par_dropdown_toggle">Pages</a>
+                        <li class="dropdown main_item mega_menu_item">
+                            <a href="#" class="active">Courses</a>
                         </li>
                         <li class="dropdown main_item">
-                            <a href="#" class="dropdown-toggle par_dropdown_toggle">About</a>
+                            <a href="#">Element</a>
                         </li>
                         <li class="dropdown main_item">
-                            <a href="#" class="dropdown-toggle par_dropdown_toggle">Contact Us</a>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="dropdown main_item">
+                            <a href="#">Pages</a>
+                        </li>
+                        <li class="dropdown main_item">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="dropdown main_item">
+                            <a href="#">Contact Us</a>
                         </li>
                     </ul>
 
@@ -84,7 +78,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="lms_search_wrapper" id="my_search_box" style="display: none"> 
                     <form method="get" action="#">
-                        <input type="search" value="" placeholder="Search..." name="s" id="cs" class="form-control">
+                        <input type="search" value="" placeholder="Search..." name="s" id="cs">
                     </form> 
                 </div>
             </div>

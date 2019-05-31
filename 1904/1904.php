@@ -22,13 +22,13 @@ $less->compileFile('less/1904.less', 'css/1904.css');
         <title>Module 1904</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">      
-        <link href="css/1904.css" rel="stylesheet" type="text/css"/>
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/1904.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap.min.js" type="text/javascript"></script>
         
     </head>
     <body>
-        <?php include '../1904/1904-content.php'; ?>
+        <?php $dir_block . '/1904/1904-content.php'; ?>
     </body>
 </html>

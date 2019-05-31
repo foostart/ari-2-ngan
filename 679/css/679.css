@@ -211,7 +211,7 @@
   color: #ff9933;
 }
 @media (min-width: 300px) and (max-width: 996px) {
-  .type-679 .container.logo_container {
+  .type-679 .logo_container {
     margin-bottom: 0 !important;
   }
   .type-679 .lms_search_toggle {

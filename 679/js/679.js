@@ -34,7 +34,7 @@ function clipHeader() {
 
                     } else {
                         $('#lms_header').css('background', 'rgba(255,255,255,0.1)');
-                        $('.logo').css('padding', '35px 0');
+                        $('.logo').css('padding', '25px 0');
                         $('.par_dropdown_toggle').css('padding', '60px 18px');
                         $('.lms_search_toggle').css('top', '90px');
                     }

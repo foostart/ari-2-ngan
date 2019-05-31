@@ -16,37 +16,35 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="img">
                     <div class="slide-band6">
                         <div class="img2">
-                            <div class="wrapper">
-                                <div class="single-img item-adv-simple item1">
-                                    <div class="wrapper item-adv-simple">
-                                        <a href="#">
-                                            <img src="<?php echo $url_path ?>/images/ad1-2.jpg" class="img-responsive">
-                                            <h3>
-                                                LG 8803
-                                                <p>Aliquam tempus rutum</p>
-                                                <span class="money">
-                                                    <span class="icon">$</span>
-                                                    350.00
-                                                </span>
-                                            </h3>
-                                        </a>
-                                    </div>
+                            <div class="item-adv-simple">
+                                <div class="item-adv-simple">
+                                    <a href="#">
+                                        <img src="<?php echo $url_path ?>/images/ad1-2.jpg" class="img-responsive">
+                                        <h3>
+                                            LG 8803
+                                            <p>Aliquam tempus rutum</p>
+                                            <span class="money">
+                                                <span class="icon">$</span>
+                                                350.00
+                                            </span>
+                                        </h3>
+                                    </a>
                                 </div>
+                            </div>
 
-                                <div class="single-img item-adv-simple item2">
-                                    <div class="wrapper item-adv-simple ">
-                                        <a href="#">
-                                            <img src="<?php echo $url_path ?>/images/ad2-2.jpg" class="img-responsive">
-                                            <h3>
-                                                iPOD APPLE
-                                                <p>Aliquam tempus rutum</p>
-                                                <span class="money">
-                                                    <span class="icon">$</span>
-                                                    170.00
-                                                </span>
-                                            </h3>
-                                        </a>
-                                    </div>
+                            <div class="item-adv-simple item2">
+                                <div class="item-adv-simple ">
+                                    <a href="#">
+                                        <img src="<?php echo $url_path ?>/images/ad2-2.jpg" class="img-responsive">
+                                        <h3>
+                                            iPOD APPLE
+                                            <p>Aliquam tempus rutum</p>
+                                            <span class="money">
+                                                <span class="icon">$</span>
+                                                170.00
+                                            </span>
+                                        </h3>
+                                    </a>
                                 </div>
                             </div>
                         </div>

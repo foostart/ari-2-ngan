@@ -23,11 +23,11 @@ $less->compileFile('less/335.less', 'css/335.css');
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link href="css/bootstrap.min.css" rel="stylesheet" />
-        <link href="css/335.css" rel="stylesheet" type="text/css" />
-        <script src="js/jquery-2.2.4.min.js" ></script>
-        <script src="css/bootstrap.min.js" ></script>
-        <script src="js/335.js" ></script>
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="<?php echo $url_path ?>/css/335.css" rel="stylesheet" type="text/css" />
+        <script src="<?php echo $url_path ?>/js/jquery-2.2.4.min.js" ></script>
+        <script src="<?php echo $url_path ?>/css/bootstrap.min.js" ></script>
+        <script src="<?php echo $url_path ?>/js/335.js" ></script>
     </head>
     <body>
 <?php include $dir_block . '/335-content.php'; ?>

@@ -61,8 +61,8 @@
 .type-682 .prev682 {
   left: 0;
 }
-.type-682 .arrow682 .next682,
-.type-682 .arrow682 .prev682 {
+.type-682 .next682,
+.type-682 .prev682 {
   opacity: .5;
 }
 .type-682 .next682:hover,

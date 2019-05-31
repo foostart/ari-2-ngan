@@ -23,23 +23,21 @@ $less->compileFile('less/1903.less', 'css/1903.css');
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <!--        JS-->
-        <script src="js/jquery.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="js/swiper.min.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/jquery.min.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/swiper.min.js" type="text/javascript"></script>
         <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-<!--        <script src="js/kinetic.js" type="text/javascript"></script>
-        <script src="js/jquery.final-countdown.js" type="text/javascript"></script>-->
-        <script src="js/TimeCircles.js" type="text/javascript"></script>
-        <script src="js/1903.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/TimeCircles.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/1903.js" type="text/javascript"></script>
 <!--        Css-->
-        <link href="css/swiper.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>      
-        <link href="css/imagehover.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/1903.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>      
+        <link href="<?php echo $url_path ?>/css/imagehover.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/1903.css" rel="stylesheet" type="text/css"/>
 
     </head>
     <body>
-        <?php include '../1903/1903-content.php'; ?>
+        <?php $dir_block . '/1903/1903-content.php'; ?>
     </body>
 </html>
