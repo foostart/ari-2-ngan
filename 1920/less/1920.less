@@ -1,3 +1,6 @@
+@color_e5: #e5e5e5;
+@size95: 95px;
+
 .type-1920{
     font-family: "Open Sans",sans-serif;
 
@@ -22,7 +25,7 @@
         }
 
         .about-review-img a{
-            border: 1px solid #e5e5e5;
+            border: 1px solid @color_e5;
             display: block;
             padding: 10px;
         }
@@ -69,7 +72,32 @@
         }
 
     }
-    
+    @media only screen and (min-width: 320px) and (max-width: 479px){
+        .about-review{
+            .about{
+                .tittle-default{
+                    font-size: 10px;
+                }
+            }
+            .customer{
+                .about-review-img{
+                    a{
+                        padding: 5px;
+                    }
+                }
+                .about-review-info{
+                    padding: 0 8px;
+                    h3{
+                        font-size: 10px;
+                    }
+                    p{
+                        font-size: 8px;
+                        line-height: 15px;
+                    }
+                }
+            }
+        }
+    }
     @media (max-width: 768px){
         .col-sm-6{
             width: 100%;

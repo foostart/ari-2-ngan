@@ -1,3 +1,7 @@
+.type-1915 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .type-1915 .sidebar-post {
   padding-top: 20px;
 }
@@ -58,4 +62,18 @@
 .type-1915 .textwidget {
   border: 0;
   padding: 20px;
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .type-1915 .sidebar-widget .widget-title {
+    font-size: 8px;
+  }
+  .type-1915 .sidebar-widget .textwidget .list-post-faq .active h3 {
+    font-size: 10px;
+  }
+  .type-1915 .sidebar-widget .textwidget .list-post-faq .active p {
+    font-size: 9px;
+  }
+  .type-1915 .sidebar-widget .textwidget .list-post-faq li h3 {
+    font-size: 10px;
+  }
 }

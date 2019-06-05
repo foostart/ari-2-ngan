@@ -54,6 +54,24 @@
   font-size: 14px;
   margin: 0 0 8px;
 }
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .type-1920 .about-review .about .tittle-default {
+    font-size: 10px;
+  }
+  .type-1920 .about-review .customer .about-review-img a {
+    padding: 5px;
+  }
+  .type-1920 .about-review .customer .about-review-info {
+    padding: 0 8px;
+  }
+  .type-1920 .about-review .customer .about-review-info h3 {
+    font-size: 10px;
+  }
+  .type-1920 .about-review .customer .about-review-info p {
+    font-size: 8px;
+    line-height: 15px;
+  }
+}
 @media (max-width: 768px) {
   .type-1920 .col-sm-6 {
     width: 100%;

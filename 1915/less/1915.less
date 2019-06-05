@@ -1,8 +1,13 @@
-.type-1915 {  
+@color_e5: #e5e5e5;
+@size15: 15px;
+
+.type-1915 {
+    padding-left: @size15;
+    padding-right: @size15;
     .sidebar-post {
         padding-top: 20px;
         .widget {
-            border: 1px solid #e5e5e5;
+            border: 1px solid @color_e5;
             margin-bottom: 30px;
         }
 
@@ -13,7 +18,7 @@
 
         .list-post-faq > li {
             padding: 0;
-            border-bottom: 1px solid #e5e5e5;
+            border-bottom: 1px solid @color_e5;
         }
         .list-post-faq > li:last-child {
             border: medium none;
@@ -56,7 +61,7 @@
         }
     }
     .widget .widget-title {
-        border-bottom: 1px solid #e5e5e5;
+        border-bottom: 1px solid @color_e5;
         font-size: 18px;
         font-weight: 700;
         margin: 0;
@@ -67,5 +72,30 @@
     .textwidget{
         border: 0;
         padding: 20px;
+    }
+    
+    @media only screen and (min-width: 320px) and (max-width: 479px){
+        .sidebar-widget{
+            .widget-title{
+                font-size: 8px;
+            }
+            .textwidget{
+                .list-post-faq{
+                    .active{
+                        h3{
+                            font-size: 10px;
+                        }
+                        p{
+                            font-size: 9px;
+                        }
+                    }
+                    li{
+                        h3{
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

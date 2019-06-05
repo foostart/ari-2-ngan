@@ -1,11 +1,7 @@
-.type-1922 {
-  font-family: "Open Sans", sans-serif;
-}
 .type-1922 .form {
   margin-top: 10px;
   border: 1px solid #eaeaec;
-  width: 272px;
-  height: 266px;
+  width: 100%;
   color: #333;
 }
 .type-1922 .form .form-radio {
@@ -15,7 +11,7 @@
   background: #333 none repeat scroll 0 0;
   color: #fff;
   height: 36px;
-  margin: 10px 0 0;
+  margin: 10px 0;
   border: medium none;
   width: 100px;
   text-transform: uppercase;
@@ -33,8 +29,30 @@
 .type-1922 .form .text {
   color: #666;
 }
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .type-1922 .form .form-radio h2,
+  .type-1922 .form .form-radio p {
+    font-size: 10px;
+  }
+  .type-1922 .form .form-radio .radio .text {
+    font-size: 10px;
+  }
+  .type-1922 .form .form-radio button {
+    height: 30px;
+    width: 70px;
+    font-size: 10px;
+  }
+}
 @media (max-width: 767px) {
+  .type-1922 {
+    margin-top: 50px;
+  }
   .type-1922 .form {
     width: 100% !important;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .type-1922 .form h2 {
+    font-size: 15px;
   }
 }
