@@ -33,6 +33,7 @@ $(document).ready(function () {
     document.getElementById("furniture").click();
     var swiper4 = new Swiper('.swiper4', {
         slidesPerView: 4,
+        slidesPerColumn: 2,
         spaceBetween: 30,
         navigation: {
             nextEl: '.next1903',
@@ -60,6 +61,7 @@ $(document).ready(function () {
     document.getElementById("fashion").click();
     var swiper3 = new Swiper('.swiper3', {
         slidesPerView: 4,
+        slidesPerColumn: 2,
         spaceBetween: 30,
         navigation: {
             nextEl: '.next1903',
@@ -87,6 +89,7 @@ $(document).ready(function () {
     document.getElementById("electronis").click();
     var swiper2 = new Swiper('.swiper2', {
         slidesPerView: 4,
+        slidesPerColumn: 2,
         spaceBetween: 10,
         navigation: {
             nextEl: '.next1903',

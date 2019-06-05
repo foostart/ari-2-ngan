@@ -1,17 +1,21 @@
+@color_border: rgb(229,229,229);
+@color_green: rgb(75,174,79);
+@color_green_yelow: rgb(204,219,56);
+@color_green_icon: rgb(255, 255, 255);
+@color_wight:#fff;
+@color_e5: #e5e5e5;
+@background_man:#4bae4f;
+@background_page: #ff9933;
+@size50: 50px;
+@size20: 20px;
+@size15: 15px;
+
 .type-1903{
-    @color_border: rgb(229,229,229);
-    @color_green: rgb(75,174,79);
-    @color_green_yelow: rgb(204,219,56);
-    @color_wight:#fff;
-    @background_man:#4bae4f;
-    @background_page: #ff9933;
-    @size50: 50px;
-    @size20: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: @size15;
+    padding-right: @size15;
     .supperdeal-deal6{
         border: 1px solid #e5e5e5;
-        margin-bottom: @size50;
+        margin-bottom: @size20;
         margin-top: @size50;
         max-width: 100%;
         display: inline-block;
@@ -28,7 +32,7 @@
                 padding: 22px 0 19px;
                 position: relative;
                 ::before{
-                    color: rgb(255, 255, 255);
+                    color: @color_green_icon;
                     content: "\f017";
                     display: block;
                     font-family: fontawesome;
@@ -58,9 +62,8 @@
                 margin-bottom: 30px;
                 .tab {
                     width: 100%;
-                    height: 190px; 
                     button:first-child{
-                        border-top: 1px solid #e5e5e5;
+                        border-top: 1px solid @color_e5;
                     }
                     button {
                         display: block;
@@ -69,7 +72,7 @@
                         width: 100%;
                         border: none;
 
-                        border-bottom: 1px solid #e5e5e5;
+                        border-bottom: 1px solid @color_e5;
                         outline: none;
                         text-align: left;
                         cursor: pointer;
@@ -147,12 +150,12 @@
                 a:before{
                     border-bottom: 1px solid rgba(255, 255, 255, 0.8);
                     border-top: 1px solid rgba(255, 255, 255, 0.8);
-                    bottom: 15px;
+                    bottom: @size15;
                     content: "";
-                    left: 15px;
+                    left: @size15;
                     position: absolute;
-                    right: 15px;
-                    top: 15px;
+                    right: @size15;
+                    top: @size15;
                     transform: scale(0, 1);
                     -webkit-transform: scale(0, 1);
                     -moz-transform: scale(0, 1);
@@ -161,12 +164,12 @@
                 a:after{
                     border-left: 1px solid rgba(255, 255, 255, 0.8);
                     border-right: 1px solid rgba(255, 255, 255, 0.8);
-                    bottom: 15px;
+                    bottom: @size15;
                     content: "";
-                    left: 15px;
+                    left: @size15;
                     position: absolute;
-                    right: 15px;
-                    top: 15px;
+                    right: @size15;
+                    top: @size15;
                     transform: scale(1, 0);
                     -webkit-transform: scale(1, 0);
                     z-index: 9;
@@ -183,23 +186,31 @@
     }
     .tabcontent1903{
         .owl-controls{
-            margin-top:15px;
+            margin: @size15 0;
             float: right;
         }
-        .owl-buttons div{
-            width: 25px;
-            height: 25px;
-            display: inline-block;
-            line-height: 25px;
-            position: static;
-            margin: 0 0 0 1px;
-            background: #707070;
-            opacity: 1;
+        .owl-buttons{
+            div{
+                width: 25px;
+                height: 25px;
+                display: inline-block;
+                line-height: 25px;
+                position: static;
+                background: #707070;
 
-            span{
-                color: #fff;
-                margin-left: 10px;
+                span{
+                    color: #fff;
+                    margin-left: 10px;
 
+                }
+            }
+
+            .next1903, .prev1903{
+                opacity: .5;
+            }
+
+            .prev1903:hover, .next1903:hover {
+                opacity: 1;
             }
         }
     }
@@ -214,10 +225,10 @@
         text-align: center;
         font-size: 18px;
         /* Center slide text vertically */
-        display: -webkit-box;
+        /*        display: -webkit-box;*/
         display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
+        /*        display: -webkit-flex;
+                display: flex;*/
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         -webkit-justify-content: center;
@@ -231,12 +242,18 @@
     .product-box{
         width: 206px;
         figure.imghvr-push-up{
+            height: 246px;
+            img{
+                height: 246px;
+            }
             figcaption.image-hover{
+                height: 246px;
                 background: none;
                 padding: 0px;
                 img{
                     vertical-align: top;
                     max-width: 100%;
+
                 }
                 .bor_img{
                     overflow: hidden;
@@ -270,6 +287,12 @@
                             padding: 5px 5px;
                             overflow: hidden;
                             text-decoration: none;
+                            .add{
+                                opacity: 0.5;
+                                i{
+                                    color: #fff;
+                                }
+                            }
                         }
                     }
                     .like{
@@ -288,14 +311,14 @@
                             }
                         }
                         .cart{
-                            i:hover{
-                                color: @color_green;
+                            .add:hover{
+                                opacity: 1;
                             }
                         }
                     }
                     img{
                         border: 1px solid @color_border;
-                        margin-top: 15px;
+                        margin-top: @size15;
                     }
                     p{
                         text-decoration: line-through;
@@ -339,7 +362,37 @@
             }
         }
     }
+    @media only screen and (min-width: 320px) and (max-width: 479px){
+        .supperdeal-sidebar {
+            .supperdeal-header{
+                h2{
+                    font-size: 15px!important; 
+                }
+                span{
+                    font-size: 10px;
+                }
+            }
+        }
+        .supperdeal-deal6 .supperdeal-sidebar{
+            .supperdeal-tab .tab{
+                height: 100px;
+                button{
+                    padding: 10px 15px;
+                    font-size: 10px;
+                    width: 92%;
+                    text-overflow: ellipsis;
+                }
+            }
+        }
+        .product-box .product-info h3.title-product{
+            font-size: 10px;
+        }
 
+        .product-box .product-info .info-price span.Price-amount span.new_price,.old_price{
+            font-size: 10px;
+        }
+
+    }
     @media (max-width: 414px){
         .supperdeal-deal6 .supperdeal-sidebar .supperdeal-header ::before{
             display: none;
@@ -363,7 +416,7 @@
         }
 
         .item-adv-simple, .adv-home6{
-            padding-left: 50px;
+            padding-left: 0px;
         }
 
         .tabcontent1903 .owl-controls{
@@ -393,8 +446,7 @@
 
         .supperdeal-deal6{
             margin-top: 20px;
-            max-width: 95%;
-            left: 15px;
+            max-width: 100%;
         }
 
         .tabcontent1903 .owl-controls{

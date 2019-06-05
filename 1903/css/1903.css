@@ -4,7 +4,7 @@
 }
 .type-1903 .supperdeal-deal6 {
   border: 1px solid #e5e5e5;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   margin-top: 50px;
   max-width: 100%;
   display: inline-block;
@@ -54,7 +54,6 @@
 }
 .type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab {
   width: 100%;
-  height: 190px;
 }
 .type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab button:first-child {
   border-top: 1px solid #e5e5e5;
@@ -170,7 +169,7 @@
   transition: all 0.3s ease-out 0s;
 }
 .type-1903 .tabcontent1903 .owl-controls {
-  margin-top: 15px;
+  margin: 15px 0;
   float: right;
 }
 .type-1903 .tabcontent1903 .owl-buttons div {
@@ -179,13 +178,19 @@
   display: inline-block;
   line-height: 25px;
   position: static;
-  margin: 0 0 0 1px;
   background: #707070;
-  opacity: 1;
 }
 .type-1903 .tabcontent1903 .owl-buttons div span {
   color: #fff;
   margin-left: 10px;
+}
+.type-1903 .tabcontent1903 .owl-buttons .next1903,
+.type-1903 .tabcontent1903 .owl-buttons .prev1903 {
+  opacity: .5;
+}
+.type-1903 .tabcontent1903 .owl-buttons .prev1903:hover,
+.type-1903 .tabcontent1903 .owl-buttons .next1903:hover {
+  opacity: 1;
 }
 .type-1903 .swiper2,
 .type-1903 .swiper3,
@@ -199,10 +204,7 @@
 .type-1903 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  display: -webkit-box;
   display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   -webkit-justify-content: center;
@@ -215,7 +217,14 @@
 .type-1903 .product-box {
   width: 206px;
 }
+.type-1903 .product-box figure.imghvr-push-up {
+  height: 246px;
+}
+.type-1903 .product-box figure.imghvr-push-up img {
+  height: 246px;
+}
 .type-1903 .product-box figure.imghvr-push-up figcaption.image-hover {
+  height: 246px;
   background: none;
   padding: 0px;
 }
@@ -258,6 +267,12 @@
   overflow: hidden;
   text-decoration: none;
 }
+.type-1903 .product-box figure.imghvr-push-up figcaption.image-hover .bor_img .like .cart .add {
+  opacity: 0.5;
+}
+.type-1903 .product-box figure.imghvr-push-up figcaption.image-hover .bor_img .like .cart .add i {
+  color: #fff;
+}
 .type-1903 .product-box figure.imghvr-push-up figcaption.image-hover .bor_img .like .search .fa {
   padding: 5px;
 }
@@ -270,8 +285,8 @@
 .type-1903 .product-box figure.imghvr-push-up figcaption.image-hover .bor_img .like .search .fa-search:hover {
   color: #4bae4f;
 }
-.type-1903 .product-box figure.imghvr-push-up figcaption.image-hover .bor_img .like .cart i:hover {
-  color: #4bae4f;
+.type-1903 .product-box figure.imghvr-push-up figcaption.image-hover .bor_img .like .cart .add:hover {
+  opacity: 1;
 }
 .type-1903 .product-box figure.imghvr-push-up figcaption.image-hover .bor_img img {
   border: 1px solid #e5e5e5;
@@ -311,6 +326,30 @@
   font-weight: bold;
   text-decoration: line-through;
 }
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .type-1903 .supperdeal-sidebar .supperdeal-header h2 {
+    font-size: 15px !important;
+  }
+  .type-1903 .supperdeal-sidebar .supperdeal-header span {
+    font-size: 10px;
+  }
+  .type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab {
+    height: 100px;
+  }
+  .type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-tab .tab button {
+    padding: 10px 15px;
+    font-size: 10px;
+    width: 92%;
+    text-overflow: ellipsis;
+  }
+  .type-1903 .product-box .product-info h3.title-product {
+    font-size: 10px;
+  }
+  .type-1903 .product-box .product-info .info-price span.Price-amount span.new_price,
+  .type-1903 .old_price {
+    font-size: 10px;
+  }
+}
 @media (max-width: 414px) {
   .type-1903 .supperdeal-deal6 .supperdeal-sidebar .supperdeal-header ::before {
     display: none;
@@ -328,7 +367,7 @@
   }
   .type-1903 .item-adv-simple,
   .type-1903 .adv-home6 {
-    padding-left: 50px;
+    padding-left: 0px;
   }
   .type-1903 .tabcontent1903 .owl-controls {
     display: none;
@@ -353,8 +392,7 @@
   }
   .type-1903 .supperdeal-deal6 {
     margin-top: 20px;
-    max-width: 95%;
-    left: 15px;
+    max-width: 100%;
   }
   .type-1903 .tabcontent1903 .owl-controls {
     display: none;
