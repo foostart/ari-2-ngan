@@ -17,18 +17,19 @@ $less->compileFile('less/1904.less', 'css/1904.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
+<head>
         <title>Module 1904</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">      
         <link href="<?php echo $url_path ?>/css/1904.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        
-        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-        
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <?php include $dir_block . '/1904-content.php'; ?>
+            <div class="container">
+                <div class="row">
+                    <?php include $dir_block . '/1904-content.php'; ?>
+                </div>
+            </div>
     </body>
 </html>
